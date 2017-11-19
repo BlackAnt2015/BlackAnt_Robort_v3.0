@@ -10,13 +10,13 @@
       <TargetName>TCL_GD32F190R8</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>5060300::V5.06 update 3 (build 300)::ARMCC</pCCUsed>
+      <pCCUsed>5060422::V5.06 update 4 (build 422)::ARMCC</pCCUsed>
       <TargetOption>
         <TargetCommonOption>
           <Device>GD32F190R8</Device>
           <Vendor>GigaDevice</Vendor>
           <PackID>GigaDevice.GD32F1x0_DFP.3.0.0</PackID>
-          <PackURL>http://gd32mcu.21ic.com/data/documents/yingyongruanjian/</PackURL>
+          <PackURL>http://gd32mcu.com/pack/</PackURL>
           <Cpu>IROM(0x08000000,0x00010000) IRAM(0x20000000,0x00002000) CPUTYPE("Cortex-M3") CLOCK(12000000) ELITTLE</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
           <StartupFile></StartupFile>
@@ -335,7 +335,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,GD32F170_190</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware;..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\CMSIS;..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\CMSIS\GD\GD32F1x0\Include;..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Include;..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\Peripherals\include;..\..\board\Colibri190;..\..\trochili\inc;..\..\trochili\inc\cpu;..\..\trochili\inc\ipc;..\..\trochili\inc\lib;..\..\trochili\inc\mem;..\..\example;C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include</IncludePath>
+              <IncludePath>C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include;C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Include;C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\inc;..\..\board\colibri190\GD32F1x0_Firmware_Library_Adapter;..\..\board\Colibri190;..\..\kernel\inc;..\..\kernel\inc\arch;..\..\kernel\inc\cpu;..\..\kernel\inc\ipc;..\..\example</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -377,17 +377,17 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>ARM_CMSIS</GroupName>
+          <GroupName>GD32F10x_CMSIS</GroupName>
           <Files>
             <File>
               <FileName>system_gd32f1x0.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\CMSIS\GD\GD32F1x0\Source\system_gd32f1x0.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Source\system_gd32f1x0.c</FilePath>
             </File>
             <File>
               <FileName>startup_gd32f1x0.s</FileName>
               <FileType>2</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\CMSIS\GD\GD32F1x0\Source\ARM\startup_gd32f1x0.s</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Source\ARM\startup_gd32f1x0.s</FilePath>
             </File>
           </Files>
         </Group>
@@ -397,132 +397,132 @@
             <File>
               <FileName>gd32f1x0_adc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_adc.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_adc.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_can.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_can.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_can.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_cec.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_cec.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_cec.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_cmp.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_cmp.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_cmp.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_crc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_crc.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_crc.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_dac.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_dac.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_dac.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_dbg.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_dbg.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_dbg.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_dma.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_dma.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_dma.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_exti.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_exti.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_exti.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_fmc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_fmc.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_fmc.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_fwdgt.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_fwdgt.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_fwdgt.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_gpio.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_gpio.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_i2c.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_i2c.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_i2c.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_ivref.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_ivref.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_ivref.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_misc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_misc.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_misc.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_opa.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_opa.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_opa.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_pmu.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_pmu.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_pmu.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_rcu.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_rcu.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_rcu.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_rtc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_rtc.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_rtc.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_slcd.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_slcd.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_slcd.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_spi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_spi.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_spi.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_syscfg.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_syscfg.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_syscfg.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_timer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_timer.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_timer.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_tsi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_tsi.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_tsi.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_usart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_usart.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_usart.c</FilePath>
             </File>
             <File>
               <FileName>gd32f1x0_wwdgt.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\firmware\GD32F1x0_Firmware_Library_V3.0.0\Firmware\GD32F1x0_standard_peripheral\Source\gd32f1x0_wwdgt.c</FilePath>
+              <FilePath>C:\Keil_v5\ARM\PACK\GigaDevice\GD32F1x0_DFP\3.0.0\Device\Firmware\Peripherals\src\gd32f1x0_wwdgt.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -555,84 +555,89 @@
           <GroupName>TROCHILI</GroupName>
           <Files>
             <File>
+              <FileName>tcl.arm.cm3.keil.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\..\kernel\src\arch\tcl.arm.cm3.keil.asm</FilePath>
+            </File>
+            <File>
+              <FileName>tcl.arm.cm3.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\kernel\src\arch\tcl.arm.cm3.c</FilePath>
+            </File>
+            <File>
+              <FileName>tcl.gd32.f190r8.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\kernel\src\cpu\tcl.gd32.f190r8.c</FilePath>
+            </File>
+            <File>
               <FileName>tcl.debug.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\trochili\src\tcl.debug.c</FilePath>
+              <FilePath>..\..\kernel\src\tcl.debug.c</FilePath>
             </File>
             <File>
               <FileName>tcl.irq.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\trochili\src\tcl.irq.c</FilePath>
-            </File>
-            <File>
-              <FileName>tcl.timer.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\trochili\src\tcl.timer.c</FilePath>
-            </File>
-            <File>
-              <FileName>tcl.mem.buddy.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\trochili\src\mem\tcl.mem.buddy.c</FilePath>
-            </File>
-            <File>
-              <FileName>tcl.mem.pool.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\trochili\src\mem\tcl.mem.pool.c</FilePath>
-            </File>
-            <File>
-              <FileName>tcl.flags.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\trochili\src\ipc\tcl.flags.c</FilePath>
-            </File>
-            <File>
-              <FileName>tcl.ipc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\trochili\src\ipc\tcl.ipc.c</FilePath>
-            </File>
-            <File>
-              <FileName>tcl.mailbox.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\trochili\src\ipc\tcl.mailbox.c</FilePath>
-            </File>
-            <File>
-              <FileName>tcl.message.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\trochili\src\ipc\tcl.message.c</FilePath>
-            </File>
-            <File>
-              <FileName>tcl.mutex.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\trochili\src\ipc\tcl.mutex.c</FilePath>
-            </File>
-            <File>
-              <FileName>tcl.semaphore.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\trochili\src\ipc\tcl.semaphore.c</FilePath>
-            </File>
-            <File>
-              <FileName>tcl.gd32f190.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\trochili\src\cpu\tcl.gd32f190.c</FilePath>
-            </File>
-            <File>
-              <FileName>tcl.gd32f190.keil.asm</FileName>
-              <FileType>2</FileType>
-              <FilePath>..\..\trochili\src\cpu\tcl.gd32f190.keil.asm</FilePath>
-            </File>
-            <File>
-              <FileName>tcl.object.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\trochili\src\tcl.object.c</FilePath>
-            </File>
-            <File>
-              <FileName>tcl.thread.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\trochili\src\tcl.thread.c</FilePath>
+              <FilePath>..\..\kernel\src\tcl.irq.c</FilePath>
             </File>
             <File>
               <FileName>tcl.kernel.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\trochili\src\tcl.kernel.c</FilePath>
+              <FilePath>..\..\kernel\src\tcl.kernel.c</FilePath>
+            </File>
+            <File>
+              <FileName>tcl.memory.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\kernel\src\tcl.memory.c</FilePath>
+            </File>
+            <File>
+              <FileName>tcl.object.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\kernel\src\tcl.object.c</FilePath>
+            </File>
+            <File>
+              <FileName>tcl.pool.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\kernel\src\tcl.pool.c</FilePath>
+            </File>
+            <File>
+              <FileName>tcl.thread.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\kernel\src\tcl.thread.c</FilePath>
+            </File>
+            <File>
+              <FileName>tcl.timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\kernel\src\tcl.timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>tcl.flags.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\kernel\src\ipc\tcl.flags.c</FilePath>
+            </File>
+            <File>
+              <FileName>tcl.ipc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\kernel\src\ipc\tcl.ipc.c</FilePath>
+            </File>
+            <File>
+              <FileName>tcl.mailbox.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\kernel\src\ipc\tcl.mailbox.c</FilePath>
+            </File>
+            <File>
+              <FileName>tcl.message.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\kernel\src\ipc\tcl.message.c</FilePath>
+            </File>
+            <File>
+              <FileName>tcl.mutex.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\kernel\src\ipc\tcl.mutex.c</FilePath>
+            </File>
+            <File>
+              <FileName>tcl.semaphore.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\kernel\src\ipc\tcl.semaphore.c</FilePath>
             </File>
           </Files>
         </Group>

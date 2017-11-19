@@ -33,7 +33,7 @@ static void ThreadLED1Entry(TArgument data)
     TState state;
     TError error;
     TBitMask pattern;
-    TOption option;
+    TBitMask option;
 
     while (eTrue)
     {
@@ -63,7 +63,7 @@ static void ThreadLed2Entry(TArgument data)
     TState state;
     TError error;
     TBitMask pattern;
-    TOption option;
+    TBitMask option;
 
     while (eTrue)
     {
@@ -93,7 +93,7 @@ static void ThreadLed3Entry(TArgument data)
     TState state;
     TError error;
     TBitMask pattern;
-    TOption option;
+    TBitMask option;
 
     while (eTrue)
     {

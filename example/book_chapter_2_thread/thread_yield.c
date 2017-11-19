@@ -1,7 +1,6 @@
 /*  用户级线程调度演示 */
-
 #include "example.h"
-#include "trochili.h"
+
 
 #if (EVB_EXAMPLE == CH2_THREAD_EXAMPLE5)
 
@@ -11,8 +10,8 @@
 #define THREAD_LED_SLICE        (0xffffffff)
 
 /* 线程定义 */
-  TThread ThreadLedOn;
-  TThread ThreadLedOff;
+static TThread ThreadLedOn;
+static TThread ThreadLedOff;
 /* 线程栈定义 */
 static TBase32 ThreadLedOnStack[THREAD_LED_STACK_BYTES/4];
 static TBase32 ThreadLedOffStack[THREAD_LED_STACK_BYTES/4];
@@ -67,19 +66,19 @@ static void AppSetupEntry(void)
 
     /* 初始化Led设备控制线程 */
     state = TclCreateThread(&ThreadLedOn, "thread led on",
-                          &ThreadLedOnEntry, (TArgument)0,
-                          ThreadLedOnStack, THREAD_LED_STACK_BYTES,
-                          THREAD_LED_PRIORITY, THREAD_LED_SLICE,
-                          &error);
+                            &ThreadLedOnEntry, (TArgument)0,
+                            ThreadLedOnStack, THREAD_LED_STACK_BYTES,
+                            THREAD_LED_PRIORITY, THREAD_LED_SLICE,
+                            &error);
     TCLM_ASSERT((state == eSuccess), "");
     TCLM_ASSERT((error == TCLE_THREAD_NONE), "");
 
     /* 初始化Led设备控制线程 */
     state = TclCreateThread(&ThreadLedOff, "thread led off",
-                          &ThreadLedOffEntry, (TArgument)0,
-                          ThreadLedOffStack, THREAD_LED_STACK_BYTES,
-                          THREAD_LED_PRIORITY, THREAD_LED_SLICE,
-                          &error);
+                            &ThreadLedOffEntry, (TArgument)0,
+                            ThreadLedOffStack, THREAD_LED_STACK_BYTES,
+                            THREAD_LED_PRIORITY, THREAD_LED_SLICE,
+                            &error);
     TCLM_ASSERT((state == eSuccess), "");
     TCLM_ASSERT((error == TCLE_THREAD_NONE), "");
 
@@ -107,7 +106,5 @@ int main(void)
     return 1;
 }
 
-
 #endif
-
 

@@ -22,7 +22,7 @@ static TBase32 mls2 = 1000;
 /* 用户定时器1的回调函数，间隔1秒，点亮或熄灭Led1 */
 static void BlinkLed1(TArgument data, TBase32 cycles, TTimeTick ticks)
 {
-    static TIndex index = 0;
+    static TBase32 index = 0;
     if (index % 2)
     {
         EvbLedControl(LED1, LED_OFF);
@@ -37,7 +37,7 @@ static void BlinkLed1(TArgument data, TBase32 cycles, TTimeTick ticks)
 /* 用户定时器2的回调函数，间隔1秒，点亮或熄灭Led2 */
 static void BlinkLed2(TArgument data, TBase32 cycles, TTimeTick ticks)
 {
-    static TIndex index = 0;
+    static TBase32 index = 0;
     if (index % 2)
     {
         EvbLedControl(LED2, LED_OFF);
@@ -77,11 +77,11 @@ static TBitMask EvbKeyISR(TArgument data)
         mls2 = (mls2 > 2000)? 2000:mls2;
 
         /* 配置用户定时器 */
-        state = TclConfigTimer(&Led1Timer, TCLM_MLS2TICKS(mls1), (TPriority)5, &error);
+        state = TclConfigTimer(&Led1Timer, TCLM_MLS2TICKS(mls1), (TBase32)5, &error);
         TCLM_ASSERT((state == eSuccess), "");
         TCLM_ASSERT((error == TCLE_TIMER_NONE), "");
 
-        state = TclConfigTimer(&Led2Timer, TCLM_MLS2TICKS(mls2), (TPriority)5, &error);
+        state = TclConfigTimer(&Led2Timer, TCLM_MLS2TICKS(mls2), (TBase32)5, &error);
         TCLM_ASSERT((state == eSuccess), "");
         TCLM_ASSERT((error == TCLE_TIMER_NONE), "");
 
@@ -113,11 +113,11 @@ static TBitMask EvbKeyISR(TArgument data)
         mls2 = (mls2 < 100)? 100:mls2;
 
         /* 配置用户定时器 */
-        state = TclConfigTimer(&Led1Timer, TCLM_MLS2TICKS(mls1), (TPriority)5, &error);
+        state = TclConfigTimer(&Led1Timer, TCLM_MLS2TICKS(mls1), (TBase32)5, &error);
         TCLM_ASSERT((state == eSuccess), "");
         TCLM_ASSERT((error == TCLE_TIMER_NONE), "");
 
-        state = TclConfigTimer(&Led2Timer, TCLM_MLS2TICKS(mls2), (TPriority)5, &error);
+        state = TclConfigTimer(&Led2Timer, TCLM_MLS2TICKS(mls2), (TBase32)5, &error);
         TCLM_ASSERT((state == eSuccess), "");
         TCLM_ASSERT((error == TCLE_TIMER_NONE), "");
 
@@ -148,7 +148,7 @@ static void ThreadLedEntry(TArgument data)
                            TCLM_MLS2TICKS(mls1),
                            &BlinkLed1,
                            (TArgument)0,
-                           (TPriority)5,
+                           (TBase32)5,
                            &error);
     TCLM_ASSERT((state == eSuccess), "");
     TCLM_ASSERT((error == TCLE_TIMER_NONE), "");
@@ -160,7 +160,7 @@ static void ThreadLedEntry(TArgument data)
                            TCLM_MLS2TICKS(mls2),
                            &BlinkLed2,
                            (TArgument)0,
-                           (TPriority)5,
+                           (TBase32)5,
                            &error);
     TCLM_ASSERT((state == eSuccess), "");
     TCLM_ASSERT((error == TCLE_TIMER_NONE), "");

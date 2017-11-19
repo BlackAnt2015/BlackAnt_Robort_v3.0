@@ -1,0 +1,116 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+AppSetupEntry	.\thread_activate_deactivate.c	/^static void AppSetupEntry(void)$/;"	f	file:	signature:(void)
+AppSetupEntry	.\thread_change_priority.c	/^static void AppSetupEntry(void)$/;"	f	file:	signature:(void)
+AppSetupEntry	.\thread_change_slice.c	/^static void AppSetupEntry(void)$/;"	f	file:	signature:(void)
+AppSetupEntry	.\thread_delay.c	/^static void AppSetupEntry(void)$/;"	f	file:	signature:(void)
+AppSetupEntry	.\thread_delay_undelay.c	/^static void AppSetupEntry(void)$/;"	f	file:	signature:(void)
+AppSetupEntry	.\thread_init.c	/^static void AppSetupEntry(void)$/;"	f	file:	signature:(void)
+AppSetupEntry	.\thread_suspend_resume.c	/^static void AppSetupEntry(void)$/;"	f	file:	signature:(void)
+AppSetupEntry	.\thread_yield.c	/^static void AppSetupEntry(void)$/;"	f	file:	signature:(void)
+THREAD_CTRL_PRIORITY	.\thread_activate_deactivate.c	12;"	d	file:
+THREAD_CTRL_PRIORITY	.\thread_change_slice.c	12;"	d	file:
+THREAD_CTRL_PRIORITY	.\thread_delay_undelay.c	11;"	d	file:
+THREAD_CTRL_PRIORITY	.\thread_suspend_resume.c	11;"	d	file:
+THREAD_CTRL_SLICE	.\thread_activate_deactivate.c	13;"	d	file:
+THREAD_CTRL_SLICE	.\thread_change_slice.c	13;"	d	file:
+THREAD_CTRL_SLICE	.\thread_delay_undelay.c	12;"	d	file:
+THREAD_CTRL_SLICE	.\thread_suspend_resume.c	12;"	d	file:
+THREAD_CTRL_STACK_BYTES	.\thread_activate_deactivate.c	11;"	d	file:
+THREAD_CTRL_STACK_BYTES	.\thread_change_slice.c	11;"	d	file:
+THREAD_CTRL_STACK_BYTES	.\thread_delay_undelay.c	10;"	d	file:
+THREAD_CTRL_STACK_BYTES	.\thread_suspend_resume.c	10;"	d	file:
+THREAD_LED_PRIORITY	.\thread_activate_deactivate.c	8;"	d	file:
+THREAD_LED_PRIORITY	.\thread_change_priority.c	8;"	d	file:
+THREAD_LED_PRIORITY	.\thread_change_slice.c	8;"	d	file:
+THREAD_LED_PRIORITY	.\thread_delay.c	10;"	d	file:
+THREAD_LED_PRIORITY	.\thread_delay_undelay.c	7;"	d	file:
+THREAD_LED_PRIORITY	.\thread_init.c	6;"	d	file:
+THREAD_LED_PRIORITY	.\thread_suspend_resume.c	8;"	d	file:
+THREAD_LED_PRIORITY	.\thread_yield.c	9;"	d	file:
+THREAD_LED_SLICE	.\thread_activate_deactivate.c	9;"	d	file:
+THREAD_LED_SLICE	.\thread_change_priority.c	9;"	d	file:
+THREAD_LED_SLICE	.\thread_change_slice.c	9;"	d	file:
+THREAD_LED_SLICE	.\thread_delay.c	11;"	d	file:
+THREAD_LED_SLICE	.\thread_delay_undelay.c	8;"	d	file:
+THREAD_LED_SLICE	.\thread_init.c	7;"	d	file:
+THREAD_LED_SLICE	.\thread_suspend_resume.c	9;"	d	file:
+THREAD_LED_SLICE	.\thread_yield.c	10;"	d	file:
+THREAD_LED_SLICE_MAX	.\thread_change_slice.c	10;"	d	file:
+THREAD_LED_STACK_BYTES	.\thread_activate_deactivate.c	7;"	d	file:
+THREAD_LED_STACK_BYTES	.\thread_change_priority.c	7;"	d	file:
+THREAD_LED_STACK_BYTES	.\thread_change_slice.c	7;"	d	file:
+THREAD_LED_STACK_BYTES	.\thread_delay.c	9;"	d	file:
+THREAD_LED_STACK_BYTES	.\thread_delay_undelay.c	6;"	d	file:
+THREAD_LED_STACK_BYTES	.\thread_init.c	5;"	d	file:
+THREAD_LED_STACK_BYTES	.\thread_suspend_resume.c	7;"	d	file:
+THREAD_LED_STACK_BYTES	.\thread_yield.c	8;"	d	file:
+ThreadCTRL	.\thread_activate_deactivate.c	/^static TThread ThreadCTRL;$/;"	v	file:
+ThreadCTRL	.\thread_change_slice.c	/^static TThread ThreadCTRL;$/;"	v	file:
+ThreadCTRL	.\thread_suspend_resume.c	/^ TThread ThreadCTRL;$/;"	v
+ThreadCTRLStack	.\thread_activate_deactivate.c	/^static TBase32 ThreadCTRLStack[THREAD_CTRL_STACK_BYTES\/4];$/;"	v	file:
+ThreadCTRLStack	.\thread_change_slice.c	/^static TBase32 ThreadCTRLStack[THREAD_CTRL_STACK_BYTES\/4];$/;"	v	file:
+ThreadCTRLStack	.\thread_suspend_resume.c	/^static TBase32 ThreadCTRLStack[THREAD_CTRL_STACK_BYTES\/4];$/;"	v	file:
+ThreadCtrl	.\thread_delay_undelay.c	/^static TThread ThreadCtrl;$/;"	v	file:
+ThreadCtrlEntry	.\thread_activate_deactivate.c	/^static void ThreadCtrlEntry(TArgument data)$/;"	f	file:	signature:(TArgument data)
+ThreadCtrlEntry	.\thread_change_slice.c	/^static void ThreadCtrlEntry(TArgument data)$/;"	f	file:	signature:(TArgument data)
+ThreadCtrlEntry	.\thread_delay_undelay.c	/^static void ThreadCtrlEntry(TArgument data)$/;"	f	file:	signature:(TArgument data)
+ThreadCtrlEntry	.\thread_suspend_resume.c	/^static void ThreadCtrlEntry(TArgument data)$/;"	f	file:	signature:(TArgument data)
+ThreadCtrlStack	.\thread_delay_undelay.c	/^static TBase32 ThreadCtrlStack[THREAD_LED_STACK_BYTES\/4];$/;"	v	file:
+ThreadLed	.\thread_delay.c	/^static TThread ThreadLed;$/;"	v	file:
+ThreadLed	.\thread_init.c	/^static TThread ThreadLed;$/;"	v	file:
+ThreadLed1	.\thread_change_priority.c	/^static TThread ThreadLed1;$/;"	v	file:
+ThreadLed1	.\thread_delay_undelay.c	/^static TThread ThreadLed1;$/;"	v	file:
+ThreadLed1Entry	.\thread_change_priority.c	/^static void ThreadLed1Entry(TArgument data)$/;"	f	file:	signature:(TArgument data)
+ThreadLed1Entry	.\thread_delay_undelay.c	/^static void ThreadLed1Entry(TArgument data)$/;"	f	file:	signature:(TArgument data)
+ThreadLed1Stack	.\thread_change_priority.c	/^static TBase32 ThreadLed1Stack[THREAD_LED_STACK_BYTES\/4];$/;"	v	file:
+ThreadLed1Stack	.\thread_delay_undelay.c	/^static TBase32 ThreadLed1Stack[THREAD_LED_STACK_BYTES\/4];$/;"	v	file:
+ThreadLed2	.\thread_change_priority.c	/^static TThread ThreadLed2;$/;"	v	file:
+ThreadLed2	.\thread_delay_undelay.c	/^static TThread ThreadLed2;$/;"	v	file:
+ThreadLed2Entry	.\thread_change_priority.c	/^static void ThreadLed2Entry(TArgument data)$/;"	f	file:	signature:(TArgument data)
+ThreadLed2Entry	.\thread_delay_undelay.c	/^static void ThreadLed2Entry(TArgument data)$/;"	f	file:	signature:(TArgument data)
+ThreadLed2Stack	.\thread_change_priority.c	/^static TBase32 ThreadLed2Stack[THREAD_LED_STACK_BYTES\/4];$/;"	v	file:
+ThreadLed2Stack	.\thread_delay_undelay.c	/^static TBase32 ThreadLed2Stack[THREAD_LED_STACK_BYTES\/4];$/;"	v	file:
+ThreadLedEntry	.\thread_delay.c	/^static void ThreadLedEntry(TArgument data)$/;"	f	file:	signature:(TArgument data)
+ThreadLedEntry	.\thread_init.c	/^static void ThreadLedEntry(TArgument data)$/;"	f	file:	signature:(TArgument data)
+ThreadLedOff	.\thread_activate_deactivate.c	/^static TThread ThreadLedOff;$/;"	v	file:
+ThreadLedOff	.\thread_change_slice.c	/^static TThread ThreadLedOff;$/;"	v	file:
+ThreadLedOff	.\thread_suspend_resume.c	/^ TThread ThreadLedOff;$/;"	v
+ThreadLedOff	.\thread_yield.c	/^static TThread ThreadLedOff;$/;"	v	file:
+ThreadLedOffEntry	.\thread_activate_deactivate.c	/^static void ThreadLedOffEntry(TArgument data)$/;"	f	file:	signature:(TArgument data)
+ThreadLedOffEntry	.\thread_change_slice.c	/^static void ThreadLedOffEntry(TArgument data)$/;"	f	file:	signature:(TArgument data)
+ThreadLedOffEntry	.\thread_suspend_resume.c	/^static void ThreadLedOffEntry(TArgument data)$/;"	f	file:	signature:(TArgument data)
+ThreadLedOffEntry	.\thread_yield.c	/^static void ThreadLedOffEntry(TArgument data)$/;"	f	file:	signature:(TArgument data)
+ThreadLedOffStack	.\thread_activate_deactivate.c	/^static TBase32 ThreadLedOffStack[THREAD_LED_STACK_BYTES\/4];$/;"	v	file:
+ThreadLedOffStack	.\thread_change_slice.c	/^static TBase32 ThreadLedOffStack[THREAD_LED_STACK_BYTES\/4];$/;"	v	file:
+ThreadLedOffStack	.\thread_suspend_resume.c	/^static TBase32 ThreadLedOffStack[THREAD_LED_STACK_BYTES\/4];$/;"	v	file:
+ThreadLedOffStack	.\thread_yield.c	/^static TBase32 ThreadLedOffStack[THREAD_LED_STACK_BYTES\/4];$/;"	v	file:
+ThreadLedOn	.\thread_activate_deactivate.c	/^static TThread ThreadLedOn;$/;"	v	file:
+ThreadLedOn	.\thread_change_slice.c	/^static TThread ThreadLedOn;$/;"	v	file:
+ThreadLedOn	.\thread_suspend_resume.c	/^ TThread ThreadLedOn;$/;"	v
+ThreadLedOn	.\thread_yield.c	/^static TThread ThreadLedOn;$/;"	v	file:
+ThreadLedOnEntry	.\thread_activate_deactivate.c	/^static void ThreadLedOnEntry(TArgument data)$/;"	f	file:	signature:(TArgument data)
+ThreadLedOnEntry	.\thread_change_slice.c	/^static void ThreadLedOnEntry(TArgument data)$/;"	f	file:	signature:(TArgument data)
+ThreadLedOnEntry	.\thread_suspend_resume.c	/^static void ThreadLedOnEntry(TArgument data)$/;"	f	file:	signature:(TArgument data)
+ThreadLedOnEntry	.\thread_yield.c	/^static void ThreadLedOnEntry(TArgument data)$/;"	f	file:	signature:(TArgument data)
+ThreadLedOnStack	.\thread_activate_deactivate.c	/^static TBase32 ThreadLedOnStack[THREAD_LED_STACK_BYTES\/4];$/;"	v	file:
+ThreadLedOnStack	.\thread_change_slice.c	/^static TBase32 ThreadLedOnStack[THREAD_LED_STACK_BYTES\/4];$/;"	v	file:
+ThreadLedOnStack	.\thread_suspend_resume.c	/^static TBase32 ThreadLedOnStack[THREAD_LED_STACK_BYTES\/4];$/;"	v	file:
+ThreadLedOnStack	.\thread_yield.c	/^static TBase32 ThreadLedOnStack[THREAD_LED_STACK_BYTES\/4];$/;"	v	file:
+ThreadLedStack	.\thread_delay.c	/^static TBase32 ThreadLedStack[THREAD_LED_STACK_BYTES\/4];$/;"	v	file:
+ThreadLedStack	.\thread_init.c	/^static TBase32 ThreadLedStack[THREAD_LED_STACK_BYTES\/4];$/;"	v	file:
+delay	.\thread_change_priority.c	/^static void delay(TBase32 count)$/;"	f	file:	signature:(TBase32 count)
+delay	.\thread_init.c	/^static void delay(TBase32 count)$/;"	f	file:	signature:(TBase32 count)
+delay	.\thread_yield.c	/^static void delay(TBase32 count)$/;"	f	file:	signature:(TBase32 count)
+main	.\thread_activate_deactivate.c	/^int main(void)$/;"	f	signature:(void)
+main	.\thread_change_priority.c	/^int main(void)$/;"	f	signature:(void)
+main	.\thread_change_slice.c	/^int main(void)$/;"	f	signature:(void)
+main	.\thread_delay.c	/^int main(void)$/;"	f	signature:(void)
+main	.\thread_delay_undelay.c	/^int main(void)$/;"	f	signature:(void)
+main	.\thread_init.c	/^int main(void)$/;"	f	signature:(void)
+main	.\thread_suspend_resume.c	/^int main(void)$/;"	f	signature:(void)
+main	.\thread_yield.c	/^int main(void)$/;"	f	signature:(void)

@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: st st, st, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+E:\gitHub\BlackAnt_Robort_v3.0\project\Nucleof103rb\Project.uvprojx
+Project File Date:  11/18/2017
+
+<h2>Output:</h2>
+Build target 'TCL_STM32F103RB'
+compiling bsp.c...
+compiling main.c...
+..\..\app\main.c(20): warning:  #188-D: enumerated type mixed with another type
+          state = InitUserThreadInfo(nThreadId);
+..\..\app\main.c: 1 warning, 0 errors
+compiling beep.c...
+compiling common.c...
+compiling light.c...
+compiling motor.c...
+compiling parser.c...
+..\..\app\parser.c(184): warning:  #174-D: expression has no effect
+        (*pInternMsg)->data.p2s_tag.angle;
+..\..\app\parser.c: 1 warning, 0 errors
+compiling receiver.c...
+compiling steer.c...
+..\..\app\steer.c(28): warning:  #188-D: enumerated type mixed with another type
+          Robort_Steer_Control(SteerNo, TurnAngle);       
+..\..\app\steer.c: 1 warning, 0 errors
+compiling gps.c...
+compiling sender.c...
+..\..\app\sender.c(123): warning:  #1-D: last line of file ends without a newline
+  }
+..\..\app\sender.c: 1 warning, 0 errors
+compiling BSP_Gpio.c...
+compiling BSP_Common.c...
+compiling BSP_ADC.C...
+compiling BSP_GPS.c...
+..\..\bsp\BSP_GPS.c(347): warning:  #1-D: last line of file ends without a newline
+  /******************* (C) COPYRIGHT 2015 X-SPACE *****END OF FILE*********************/
+..\..\bsp\BSP_GPS.c: 1 warning, 0 errors
+compiling BSP_Pwm.c...
+compiling BSP_Systick.c...
+compiling BSP_Timer.c...
+compiling BSP_Uart.c...
+compiling parser.c...
+linking...
+Program Size: Code=30104 RO-data=1956 RW-data=440 ZI-data=11208  
+FromELF: creating hex file...
+".\build\ObjFlash\trochili.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\gitHub\BlackAnt_Robort_v3.0\project\Nucleof103rb\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>

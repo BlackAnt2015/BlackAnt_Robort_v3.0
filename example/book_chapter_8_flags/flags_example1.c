@@ -39,7 +39,7 @@ static void ThreadLedOnEntry(TArgument arg)
     TState state;
     TError error;
     TBitMask pattern;
-    TOption option;
+    TBitMask option;
 
     while (eTrue)
     {
@@ -75,7 +75,7 @@ static void ThreadLedOffEntry(TArgument arg)
     TState state;
     TError error;
     TBitMask pattern;
-    TOption option;
+    TBitMask option;
 
     while (eTrue)
     {

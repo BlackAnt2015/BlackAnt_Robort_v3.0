@@ -1,7 +1,5 @@
 /*  线程挂起和解挂API演示 */
-
 #include "example.h"
-#include "trochili.h"
 
 #if (EVB_EXAMPLE == CH2_THREAD_EXAMPLE3)
 

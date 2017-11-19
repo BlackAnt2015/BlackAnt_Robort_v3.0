@@ -4,7 +4,7 @@
 #if (EVB_EXAMPLE == CH4_SEMAPHORE_EXAMPLE1)
 
 /* 用户线程参数 */
-#define THREAD_LED_STACK_BYTES  (512)
+#define THREAD_LED_STACK_BYTES  (256)
 #define THREAD_LED_PRIORITY     (5)
 #define THREAD_LED_SLICE        (20)
 

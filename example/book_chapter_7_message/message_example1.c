@@ -99,7 +99,7 @@ static void AppSetupEntry(void)
     TError error;
 
     /* 初始化消息队列 */
-    state =TclCreateMsgQueue(&LedMQ, "queue",(void**)(&LedMsgPool),
+    state =TclCreateMsgQueue(&InternMsgQueue, "InterMsgQueue",(void**)(&LedMsgPool),
                            MQ_POOL_LEN, TCLP_IPC_DEFAULT, &error);
     TCLM_ASSERT((state == eSuccess), "");
     TCLM_ASSERT((error == TCLE_IPC_NONE), "");

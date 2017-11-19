@@ -1,5 +1,4 @@
 #include "example.h"
-#include "trochili.h"
 
 #if (EVB_EXAMPLE == CH2_THREAD_EXAMPLE4)
 
@@ -51,13 +50,13 @@ static void ThreadLed2Entry(TArgument data)
 
     while (eTrue)
     {
-        state = TclDelayThread(TCLM_SEC2TICKS(200), &error);
+        state = TclDelayThread(TCLM_SEC2TICKS(2), &error);
         if(state == eSuccess)
         {
             EvbLedControl(LED2, LED_OFF);
         }
 
-        state = TclDelayThread(TCLM_SEC2TICKS(200), &error);
+        state = TclDelayThread(TCLM_SEC2TICKS(2), &error);
         if(state == eSuccess)
         {
             EvbLedControl(LED2, LED_ON);
@@ -141,7 +140,7 @@ static void AppSetupEntry(void)
     TCLM_ASSERT((error == TCLE_THREAD_NONE), "");
 
     /* 激活Led设备控制线程 */
-    state = TclActivateThread(&ThreadCtrl, &error);
+   // state = TclActivateThread(&ThreadCtrl, &error);
     TCLM_ASSERT((state == eSuccess), "");
     TCLM_ASSERT((error == TCLE_THREAD_NONE), "");
 }

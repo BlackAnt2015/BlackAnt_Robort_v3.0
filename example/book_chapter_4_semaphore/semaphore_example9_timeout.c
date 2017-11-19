@@ -31,7 +31,7 @@ static void ThreadLedEntry(TArgument arg)
         /* Led线程以阻塞方式获取信号量，得到后点亮Led */
         state = TclObtainSemaphore(&LedSemaphore, TCLO_IPC_WAIT| TCLO_IPC_TIMEO,
                                    TCLM_SEC2TICKS(1), &error);
-        if ((state == eFailure) && (error == TCLE_IPC_TIMEO))
+        if ((state == eError) && (error == TCLE_IPC_TIMEO))
         {
             EvbLedControl(LED1, LED_ON);
         }
@@ -42,7 +42,7 @@ static void ThreadLedEntry(TArgument arg)
         /* Led线程以阻塞方式获取信号量，得到后熄灭Led */
         state = TclObtainSemaphore(&LedSemaphore, TCLO_IPC_WAIT| TCLO_IPC_TIMEO,
                                    TCLM_SEC2TICKS(1), &error);
-        if ((state == eFailure) && (error == TCLE_IPC_TIMEO))
+        if ((state == eError) && (error == TCLE_IPC_TIMEO))
         {
             EvbLedControl(LED1, LED_OFF);
         }

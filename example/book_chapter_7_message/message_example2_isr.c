@@ -74,7 +74,7 @@ static TBitMask EvbKeyISR(TArgument data)
             /* KeyISR发送Led熄灭的消息 */
             pMsg->Index = LED1;
             pMsg->Value = LED_OFF;
-            state = TclIsrSendMessage(&LedMQ, (TMessage*)(&pMsg), (TOption)0, &error);
+            state = TclIsrSendMessage(&LedMQ, (TMessage*)(&pMsg), (TBitMask)0, &error);
             TCLM_ASSERT((state == eSuccess), "");
         }
         turn++;

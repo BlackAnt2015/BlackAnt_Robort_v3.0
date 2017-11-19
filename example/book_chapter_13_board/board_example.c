@@ -3,8 +3,12 @@
 
 #if (EVB_EXAMPLE == CH13_BOARD_TEST_EXAMPLE)
 
+#if (TCLC_TIMER_ENABLE == 0)
+#error  enable timer first!
+#endif
+
 /* 用户线程参数 */
-#define THREAD_LED_STACK_BYTES         (515)
+#define THREAD_LED_STACK_BYTES         (256)
 #define THREAD_LED_PRIORITY            (5)
 #define THREAD_LED_SLICE               (20)
 
@@ -84,7 +88,7 @@ static TBitMask EvbKeyISR(TArgument data)
         }
         index1++;
     }
-    else
+    else if (keyid == 2)
     {
         if (index2 % 2)
         {
@@ -106,7 +110,7 @@ static TBitMask EvbKeyISR(TArgument data)
     return TCLR_IRQ_DONE;
 }
 
-
+    
 /* Led线程的主函数 */
 static void ThreadLedEntry(TArgument data)
 {
@@ -137,21 +141,25 @@ static void AppSetupEntry(void)
     TError error;
 
     /* 设置和KEY相关的外部中断向量 */
-    state = TclSetIrqVector(KEY_IRQ_ID, &EvbKeyISR, (TArgument)0, &error);
+    state = TclSetIrqVector(KEY0_IRQ_ID, &EvbKeyISR, (TArgument)0, &error);
+    TCLM_ASSERT((state == eSuccess), "");
+    TCLM_ASSERT((error == TCLE_IRQ_NONE), "");
+    
+    state = TclSetIrqVector(KEY1_IRQ_ID, &EvbKeyISR, (TArgument)0, &error);
     TCLM_ASSERT((state == eSuccess), "");
     TCLM_ASSERT((error == TCLE_IRQ_NONE), "");
 
     /* 初始化用户定时器 */
     state = TclCreateTimer(&LedTimer1,"timer1", TCLP_TIMER_PERIODIC,
                            TCLM_MLS2TICKS(1000),
-                           &Blink1, (TArgument)0, (TPriority)5, &error);
+                           &Blink1, (TArgument)0, (TBase32)5, &error);
     TCLM_ASSERT((state == eSuccess), "");
     TCLM_ASSERT((error == TCLE_TIMER_NONE), "");
 
     /* 初始化用户定时器 */
     state = TclCreateTimer(&LedTimer2, "timer2", TCLP_TIMER_PERIODIC,
                            TCLM_MLS2TICKS(1000),
-                           &Blink2, (TArgument)0, (TPriority)5, &error);
+                           &Blink2, (TArgument)0, (TBase32)5, &error);
     TCLM_ASSERT((state == eSuccess), "");
     TCLM_ASSERT((error == TCLE_TIMER_NONE), "");
 
@@ -184,3 +192,4 @@ int main(void)
 }
 
 #endif
+

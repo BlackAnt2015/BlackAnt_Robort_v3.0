@@ -1,0 +1,12 @@
+.\build\objflash\generate.o: ..\..\nmea_decode\src\generate.c
+.\build\objflash\generate.o: ..\..\nmea_decode\include\nmea/tok.h
+.\build\objflash\generate.o: ..\..\nmea_decode\include\nmea/config.h
+.\build\objflash\generate.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\build\objflash\generate.o: ..\..\nmea_decode\include\nmea/sentence.h
+.\build\objflash\generate.o: ..\..\nmea_decode\include\nmea/info.h
+.\build\objflash\generate.o: ..\..\nmea_decode\include\nmea/time.h
+.\build\objflash\generate.o: ..\..\nmea_decode\include\nmea/generate.h
+.\build\objflash\generate.o: ..\..\nmea_decode\include\nmea/units.h
+.\build\objflash\generate.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\build\objflash\generate.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\build\objflash\generate.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

@@ -1,4 +1,7 @@
-#include "colibri190bsp.h"
+
+#include "trochili.h"
+//#include "colibri_bsp.h"
+#define CH1_RTOS_SIMPLE_EXAMPLE    (10)
 
 #define CH2_THREAD_EXAMPLE1        (21)       /* INIT                 */
 #define CH2_THREAD_EXAMPLE2        (22)       /* ACTIVATE             */
@@ -63,5 +66,7 @@
 
 #define CH13_BOARD_TEST_EXAMPLE    (131)
 
-#define EVB_EXAMPLE       CH13_BOARD_TEST_EXAMPLE
+#define CH14_BLACK_ANT_ROBORT      (136)
+
+#define EVB_EXAMPLE       CH14_BLACK_ANT_ROBORT
 

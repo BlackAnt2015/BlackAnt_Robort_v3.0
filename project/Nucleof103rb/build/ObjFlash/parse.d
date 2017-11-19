@@ -1,0 +1,13 @@
+.\build\objflash\parse.o: ..\..\nmea_decode\src\parse.c
+.\build\objflash\parse.o: ..\..\nmea_decode\include\nmea/tok.h
+.\build\objflash\parse.o: ..\..\nmea_decode\include\nmea/config.h
+.\build\objflash\parse.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\build\objflash\parse.o: ..\..\nmea_decode\include\nmea/parse.h
+.\build\objflash\parse.o: ..\..\nmea_decode\include\nmea/sentence.h
+.\build\objflash\parse.o: ..\..\nmea_decode\include\nmea/info.h
+.\build\objflash\parse.o: ..\..\nmea_decode\include\nmea/time.h
+.\build\objflash\parse.o: ..\..\nmea_decode\include\nmea/context.h
+.\build\objflash\parse.o: ..\..\nmea_decode\include\nmea/gmath.h
+.\build\objflash\parse.o: ..\..\nmea_decode\include\nmea/units.h
+.\build\objflash\parse.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\build\objflash\parse.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

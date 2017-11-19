@@ -1,0 +1,365 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+ANGLE0_DUTY_CYCLE	.\steer.h	7;"	d
+ANGLE180_DUTY_CYCLE	.\steer.h	8;"	d
+ANGLE_DEFAULT	.\steer.h	14;"	d
+ANGLE_MAX_ANGLE	.\steer.h	10;"	d
+ANGLE_MIN_ANGLE	.\steer.h	11;"	d
+APP_ROBORT_CMD_BACK	.\parser.h	/^	APP_ROBORT_CMD_BACK		    = 0x02,$/;"	e	enum:__anon27
+APP_ROBORT_CMD_BEEP_OFF	.\parser.h	/^   	APP_ROBORT_CMD_BEEP_OFF		= 0x12,$/;"	e	enum:__anon27
+APP_ROBORT_CMD_BEEP_ON	.\parser.h	/^    APP_ROBORT_CMD_BEEP_ON		= 0x11, \/\/beep$/;"	e	enum:__anon27
+APP_ROBORT_CMD_FORWARD	.\parser.h	/^	APP_ROBORT_CMD_FORWARD		= 0x01,$/;"	e	enum:__anon27
+APP_ROBORT_CMD_GPS_OFF	.\parser.h	/^	APP_ROBORT_CMD_GPS_OFF		= 0x14,$/;"	e	enum:__anon27
+APP_ROBORT_CMD_GPS_ON	.\parser.h	/^	APP_ROBORT_CMD_GPS_ON		= 0x13,$/;"	e	enum:__anon27
+APP_ROBORT_CMD_LEFT	.\parser.h	/^	APP_ROBORT_CMD_LEFT	    	= 0x03,$/;"	e	enum:__anon27
+APP_ROBORT_CMD_LIGHT_OFF	.\parser.h	/^	APP_ROBORT_CMD_LIGHT_OFF	= 0x10,$/;"	e	enum:__anon27
+APP_ROBORT_CMD_LIGHT_ON	.\parser.h	/^	APP_ROBORT_CMD_LIGHT_ON		= 0x0f, \/\/light $/;"	e	enum:__anon27
+APP_ROBORT_CMD_RIGHT	.\parser.h	/^	APP_ROBORT_CMD_RIGHT		= 0x04,$/;"	e	enum:__anon27
+APP_ROBORT_CMD_SPEED_L	.\parser.h	/^	APP_ROBORT_CMD_SPEED_L		= 0x0d, \/\/speed$/;"	e	enum:__anon27
+APP_ROBORT_CMD_SPEED_R	.\parser.h	/^	APP_ROBORT_CMD_SPEED_R		= 0x0e, \/\/speed$/;"	e	enum:__anon27
+APP_ROBORT_CMD_STEER1	.\parser.h	/^	APP_ROBORT_CMD_STEER1		= 0x05, \/\/steer engine$/;"	e	enum:__anon27
+APP_ROBORT_CMD_STEER2	.\parser.h	/^	APP_ROBORT_CMD_STEER2		= 0x06, \/\/steer engine$/;"	e	enum:__anon27
+APP_ROBORT_CMD_STEER3	.\parser.h	/^	APP_ROBORT_CMD_STEER3		= 0x07, \/\/steer engine$/;"	e	enum:__anon27
+APP_ROBORT_CMD_STEER4	.\parser.h	/^	APP_ROBORT_CMD_STEER4		= 0x08, \/\/steer engine$/;"	e	enum:__anon27
+APP_ROBORT_CMD_STEER5	.\parser.h	/^	APP_ROBORT_CMD_STEER5		= 0x09, \/\/steer engine$/;"	e	enum:__anon27
+APP_ROBORT_CMD_STEER6	.\parser.h	/^	APP_ROBORT_CMD_STEER6		= 0x0a, \/\/steer engine$/;"	e	enum:__anon27
+APP_ROBORT_CMD_STEER7	.\parser.h	/^	APP_ROBORT_CMD_STEER7		= 0x0b, \/\/steer engine$/;"	e	enum:__anon27
+APP_ROBORT_CMD_STEER8	.\parser.h	/^	APP_ROBORT_CMD_STEER8		= 0x0c, \/\/steer engine$/;"	e	enum:__anon27
+APP_ROBORT_CMD_STOP	.\parser.h	/^	APP_ROBORT_CMD_STOP   		= 0x00, \/\/direction$/;"	e	enum:__anon27
+APP_ROBORT_CMD_TYPE	.\parser.h	/^}APP_ROBORT_CMD_TYPE;$/;"	t	typeref:enum:__anon27
+APP_ROBORT_END	.\parser.h	/^	APP_ROBORT_END$/;"	e	enum:__anon27
+APP_TERMINAL_ADDRESS	.\parser.h	11;"	d
+Addr	.\common.h	/^	uint8 Addr;             \/\/robort local address$/;"	m	struct:protocol	access:public
+AllocateThreadStack	.\main.c	/^TError AllocateThreadStack(TByte ThreadId, void **ppStack)$/;"	f	signature:(TByte ThreadId, void **ppStack)
+AllocateThreadStack	.\main.h	/^static TError AllocateThreadStack(TByte ThreadId, void **pStack);$/;"	p	signature:(TByte ThreadId, void **pStack)
+AppSetupEntry	.\main.c	/^static void AppSetupEntry(void)$/;"	f	file:	signature:(void)
+App_Robort_Dat_Tag	.\common.h	/^typedef struct protocol App_Robort_Dat_Tag;$/;"	t	typeref:struct:protocol
+Argument	.\common.h	/^    TArgument       Argument; $/;"	m	struct:user_thread_info	access:public
+Assemble_Message_Length	.\parser.c	/^static unsigned short Assemble_Message_Length(App_Robort_Dat_Tag *pdata)$/;"	f	file:	signature:(App_Robort_Dat_Tag *pdata)
+Assemble_Message_Length	.\parser.h	/^static unsigned short Assemble_Message_Length(App_Robort_Dat_Tag *pdata);$/;"	p	signature:(App_Robort_Dat_Tag *pdata)
+BASystemSetupEntry	.\main.c	/^extern void BASystemSetupEntry(void);$/;"	p	file:	signature:(void)
+BAUserThreadInfoTable	.\common.c	/^BA_USER_THREAD_INFO BAUserThreadInfoTable[] = $/;"	v
+BA_THREAD_BEEP_ID	.\common.h	/^      BA_THREAD_BEEP_ID         = 0,$/;"	e	enum:__anon3
+BA_THREAD_END_ID	.\common.h	/^    BA_THREAD_END_ID,$/;"	e	enum:__anon3
+BA_THREAD_ID	.\common.h	/^}BA_THREAD_ID;$/;"	t	typeref:enum:__anon3
+BA_THREAD_LIGHT_ID	.\common.h	/^      BA_THREAD_LIGHT_ID        = 4,$/;"	e	enum:__anon3
+BA_THREAD_MOTOR_ID	.\common.h	/^      BA_THREAD_MOTOR_ID        = 2,$/;"	e	enum:__anon3
+BA_THREAD_PARSER_ID	.\common.h	/^      BA_THREAD_PARSER_ID       = 1,   $/;"	e	enum:__anon3
+BA_THREAD_STEER_ID	.\common.h	/^      BA_THREAD_STEER_ID        = 3,$/;"	e	enum:__anon3
+BA_USER_THREAD_INFO	.\common.h	/^}BA_USER_THREAD_INFO;$/;"	t	typeref:struct:user_thread_info
+BEEP_0	.\beep.h	/^	BEEP_0 = 0,$/;"	e	enum:__anon2
+BEEP_1	.\beep.h	/^	BEEP_1,$/;"	e	enum:__anon2
+BEEP_OFF	.\common.h	/^    BEEP_OFF = 0,$/;"	e	enum:__anon5
+BEEP_ON	.\common.h	/^    BEEP_ON  = 1, $/;"	e	enum:__anon5
+BindThreadFunction	.\main.c	/^static void BindThreadFunction(void)$/;"	f	file:	signature:(void)
+BindThreadFunction	.\main.h	/^static void BindThreadFunction(void);$/;"	p	signature:(void)
+BroadcastInternalMessage	.\parser.c	/^static TState BroadcastInternalMessage(S_Internal_Interface_Tag **pInternMsg)$/;"	f	file:	signature:(S_Internal_Interface_Tag **pInternMsg)
+BroadcastInternalMessage	.\parser.h	/^static TState BroadcastInternalMessage(S_Internal_Interface_Tag **pInternMsg);$/;"	p	signature:(S_Internal_Interface_Tag **pInternMsg)
+CLOUD_STAGE_STEER_PERIOD	.\steer.h	16;"	d
+CMD_TYPE_SIZE	.\common.h	16;"	d
+CRC_H_SIZE	.\common.h	17;"	d
+CRC_L_SIZE	.\common.h	18;"	d
+CalPWMDutyCycle	.\motor.c	/^static uint16  CalPWMDutyCycle(unsigned char speed)$/;"	f	file:	signature:(unsigned char speed)
+CalPWMDutyCycle	.\motor.h	/^static uint16  CalPWMDutyCycle(unsigned char speed);$/;"	p	signature:(unsigned char speed)
+Cmd	.\common.h	/^	uint8 Cmd;              \/\/Command type$/;"	m	struct:protocol	access:public
+Crc_H	.\common.h	/^	uint8 Crc_H;            \/\/crc check MSB$/;"	m	struct:protocol	access:public
+Crc_L	.\common.h	/^	uint8 Crc_L;            \/\/crc check LSB$/;"	m	struct:protocol	access:public
+DIRECTION_TAG	.\motor.h	/^}DIRECTION_TAG;$/;"	t	typeref:enum:__anon26
+DIR_NEGTIVE	.\motor.h	/^    DIR_NEGTIVE,$/;"	e	enum:__anon26
+DIR_POSITIVE	.\motor.h	/^    DIR_POSITIVE = 0,$/;"	e	enum:__anon26
+DIR_STOPPED	.\motor.h	/^    DIR_STOPPED$/;"	e	enum:__anon26
+E_Internal_Beep_Status	.\common.h	/^}E_Internal_Beep_Status;$/;"	t	typeref:enum:__anon5
+E_Internal_Entry_Type	.\common.h	/^}E_Internal_Entry_Type;$/;"	t	typeref:enum:__anon4
+E_Internal_GPS_CMD	.\common.h	/^}E_Internal_GPS_CMD;$/;"	t	typeref:enum:__anon8
+E_Internal_LIGHT_Status	.\common.h	/^}E_Internal_LIGHT_Status;$/;"	t	typeref:enum:__anon6
+E_Internal_Motor_TYPE	.\common.h	/^}E_Internal_Motor_TYPE;$/;"	t	typeref:enum:__anon7
+E_Light_No	.\light.h	/^}E_Light_No;$/;"	t	typeref:enum:__anon21
+Entry_Type	.\common.h	/^    uint8 Entry_Type;$/;"	m	struct:__anon15	access:public
+EvbSetupEntry	.\main.c	/^extern void EvbSetupEntry(void);$/;"	p	file:	signature:(void)
+EvbTraceEntry	.\main.c	/^extern void EvbTraceEntry(const char* str);$/;"	p	file:	signature:(const char* str)
+ExternInMsgQueue	.\common.c	/^TMsgQueue ExternInMsgQueue; $/;"	v
+ExternMsgInPool	.\common.c	/^void* ExternMsgInPool[MQ_POOL_LEN]; $/;"	v
+ExternMsgOutPool	.\common.c	/^void* ExternMsgOutPool[MQ_POOL_LEN]; $/;"	v
+ExternOutMsgQueue	.\common.c	/^TMsgQueue ExternOutMsgQueue; $/;"	v
+FRAME_HEAD_SIZE	.\common.h	12;"	d
+FRAME_INFO_SIZE	.\common.h	20;"	d
+Frame_Head	.\common.h	/^	uint8 Frame_Head;       \/\/0xff$/;"	m	struct:protocol	access:public
+GPS_DATA_Init	.\gps.c	/^static void GPS_DATA_Init( void)$/;"	f	file:	signature:( void)
+GPS_DATA_Init	.\gps.h	/^static void GPS_DATA_Init( void);$/;"	p	signature:( void)
+GPS_HalfTransferEnd_Nema	.\gps.c	/^static void GPS_HalfTransferEnd_Nema()$/;"	f	file:
+GPS_Info	.\gps.h	/^struct GPS_Info{$/;"	s
+GPS_Info::__anon17::fLat	.\gps.h	/^		uint32_t fLat;$/;"	m	union:GPS_Info::__anon17	access:public
+GPS_Info::__anon17::uLat	.\gps.h	/^		u8   uLat[4];$/;"	m	union:GPS_Info::__anon17	access:public
+GPS_Info::__anon18::fLon	.\gps.h	/^		uint32_t fLon;$/;"	m	union:GPS_Info::__anon18	access:public
+GPS_Info::__anon18::uLon	.\gps.h	/^		u8    uLon[4];   $/;"	m	union:GPS_Info::__anon18	access:public
+GPS_Info::__anon19::fDir	.\gps.h	/^		uint32_t fDir;$/;"	m	union:GPS_Info::__anon19	access:public
+GPS_Info::__anon19::uDir	.\gps.h	/^		u8    uDir[4];$/;"	m	union:GPS_Info::__anon19	access:public
+GPS_Info::__anon20::fSpeed	.\gps.h	/^		uint32_t fSpeed;$/;"	m	union:GPS_Info::__anon20	access:public
+GPS_Info::__anon20::uSpeed	.\gps.h	/^		u8    uSpeed[4]; $/;"	m	union:GPS_Info::__anon20	access:public
+GPS_Info::direction	.\gps.h	/^	}direction;$/;"	m	struct:GPS_Info	typeref:union:GPS_Info::__anon19	access:public
+GPS_Info::lat	.\gps.h	/^	}lat;$/;"	m	struct:GPS_Info	typeref:union:GPS_Info::__anon17	access:public
+GPS_Info::lon	.\gps.h	/^	}lon;$/;"	m	struct:GPS_Info	typeref:union:GPS_Info::__anon18	access:public
+GPS_Info::sAtinfo_iNuse	.\gps.h	/^	u8 sAtinfo_iNuse;$/;"	m	struct:GPS_Info	access:public
+GPS_Info::sAtinfo_iNview	.\gps.h	/^	u8 sAtinfo_iNview;$/;"	m	struct:GPS_Info	access:public
+GPS_Info::speed	.\gps.h	/^	}speed;	$/;"	m	struct:GPS_Info	typeref:union:GPS_Info::__anon20	access:public
+GPS_Info_Data	.\gps.c	/^struct GPS_Info GPS_Info_Data;$/;"	v	typeref:struct:GPS_Info
+GPS_OFF	.\common.h	/^    GPS_OFF,$/;"	e	enum:__anon8
+GPS_ON	.\common.h	/^    GPS_ON   = 0,$/;"	e	enum:__anon8
+GPS_TransferEnd_Nema	.\gps.c	/^static void GPS_TransferEnd_Nema()$/;"	f	file:
+Gps_Sender_Dat_Tag	.\common.h	/^}Gps_Sender_Dat_Tag;$/;"	t	typeref:struct:__anon14
+InitUserThreadInfo	.\main.c	/^static TError InitUserThreadInfo(TByte ThreadId)$/;"	f	file:	signature:(TByte ThreadId)
+InitUserThreadInfo	.\main.h	/^static TError InitUserThreadInfo(TByte ThreadId);$/;"	p	signature:(TByte ThreadId)
+InternMsgPool	.\common.c	/^void* InternMsgPool[MQ_POOL_LEN];$/;"	v
+InternMsgQueue	.\common.c	/^TMsgQueue InternMsgQueue; $/;"	v
+LIGHT_0	.\light.h	/^	LIGHT_0 = 0,$/;"	e	enum:__anon21
+LIGHT_1	.\light.h	/^	LIGHT_1,$/;"	e	enum:__anon21
+LIGHT_OFF	.\common.h	/^    LIGHT_OFF = 0,$/;"	e	enum:__anon6
+LIGHT_ON	.\common.h	/^    LIGHT_ON  = 1,$/;"	e	enum:__anon6
+LOCAL_ADDR_SIZE	.\common.h	13;"	d
+MASSAGE_H_SIZE	.\common.h	14;"	d
+MASSAGE_L_SIZE	.\common.h	15;"	d
+MOTOR_DIR_TYPE	.\common.h	/^    MOTOR_DIR_TYPE   = 0,$/;"	e	enum:__anon7
+MOTOR_LB	.\motor.h	/^    MOTOR_LB,     \/\/Left-Bottom$/;"	e	enum:__anon25
+MOTOR_LT	.\motor.h	/^    MOTOR_LT = 0, \/\/Left-Top$/;"	e	enum:__anon25
+MOTOR_NONE	.\motor.h	/^    MOTOR_NONE$/;"	e	enum:__anon25
+MOTOR_PERIOD_DEFAULT	.\motor.h	8;"	d
+MOTOR_RB	.\motor.h	/^    MOTOR_RB,$/;"	e	enum:__anon25
+MOTOR_RT	.\motor.h	/^    MOTOR_RT,$/;"	e	enum:__anon25
+MOTOR_SPEED_TYPE	.\common.h	/^    MOTOR_SPEED_TYPE,$/;"	e	enum:__anon7
+MOTOR_TAG	.\motor.h	/^}MOTOR_TAG;$/;"	t	typeref:enum:__anon25
+MQ_POOL_LEN	.\common.h	10;"	d
+Msg_H	.\common.h	/^	uint8 Msg_H;            \/\/Data[] length MSB$/;"	m	struct:protocol	access:public
+Msg_L	.\common.h	/^	uint8 Msg_L;            \/\/Data[] length LSB$/;"	m	struct:protocol	access:public
+PARSER_BEEP_DAT_TAG	.\common.h	/^    PARSER_BEEP_DAT_TAG  = 0,$/;"	e	enum:__anon4
+PARSER_GPS_DAT_TAG	.\common.h	/^    PARSER_GPS_DAT_TAG   = 4,$/;"	e	enum:__anon4
+PARSER_LIGHT_DAT_TAG	.\common.h	/^    PARSER_LIGHT_DAT_TAG = 1,$/;"	e	enum:__anon4
+PARSER_MOTOR_DAT_TAG	.\common.h	/^    PARSER_MOTOR_DAT_TAG = 2,$/;"	e	enum:__anon4
+PARSER_STEER_DAT_TAG	.\common.h	/^    PARSER_STEER_DAT_TAG = 3,$/;"	e	enum:__anon4
+PRIORITY_SET	.\common.h	34;"	d
+Parser_Beep_Dat_Tag	.\common.h	/^}Parser_Beep_Dat_Tag;$/;"	t	typeref:struct:__anon9
+Parser_Gps_Dat_Tag	.\common.h	/^}Parser_Gps_Dat_Tag;$/;"	t	typeref:struct:__anon13
+Parser_Light_Dat_Tag	.\common.h	/^}Parser_Light_Dat_Tag;$/;"	t	typeref:struct:__anon10
+Parser_Motor_Dat_Tag	.\common.h	/^}Parser_Motor_Dat_Tag;$/;"	t	typeref:struct:__anon11
+Parser_Steer_Dat_Tag	.\common.h	/^}Parser_Steer_Dat_Tag;$/;"	t	typeref:struct:__anon12
+Priority	.\common.h	/^    TBase32         Priority;$/;"	m	struct:user_thread_info	access:public
+Process_Robort_Beep_Cmd	.\parser.c	/^static uint8 Process_Robort_Beep_Cmd(App_Robort_Dat_Tag *pExternMsg, S_Internal_Interface_Tag **pInternMsg)$/;"	f	file:	signature:(App_Robort_Dat_Tag *pExternMsg, S_Internal_Interface_Tag **pInternMsg)
+Process_Robort_Beep_Cmd	.\parser.h	/^static uint8 Process_Robort_Beep_Cmd(App_Robort_Dat_Tag *pExternMsg, S_Internal_Interface_Tag **pInternMsg);$/;"	p	signature:(App_Robort_Dat_Tag *pExternMsg, S_Internal_Interface_Tag **pInternMsg)
+Process_Robort_Direction_Cmd	.\parser.c	/^uint8 Process_Robort_Direction_Cmd(App_Robort_Dat_Tag *pExternMsg, S_Internal_Interface_Tag **pInternMsg)$/;"	f	signature:(App_Robort_Dat_Tag *pExternMsg, S_Internal_Interface_Tag **pInternMsg)
+Process_Robort_Light_Cmd	.\parser.c	/^static uint8 Process_Robort_Light_Cmd(App_Robort_Dat_Tag *pExternMsg, S_Internal_Interface_Tag **pInternMsg)$/;"	f	file:	signature:(App_Robort_Dat_Tag *pExternMsg, S_Internal_Interface_Tag **pInternMsg)
+Process_Robort_Light_Cmd	.\parser.h	/^static uint8 Process_Robort_Light_Cmd(App_Robort_Dat_Tag *pExternMsg, S_Internal_Interface_Tag **pInternMsg);$/;"	p	signature:(App_Robort_Dat_Tag *pExternMsg, S_Internal_Interface_Tag **pInternMsg)
+Process_Robort_Speed_Cmd	.\parser.c	/^static uint8 Process_Robort_Speed_Cmd(App_Robort_Dat_Tag *pExternMsg, S_Internal_Interface_Tag **pInternMsg)$/;"	f	file:	signature:(App_Robort_Dat_Tag *pExternMsg, S_Internal_Interface_Tag **pInternMsg)
+Process_Robort_Steer_Cmd	.\parser.c	/^static uint8 Process_Robort_Steer_Cmd(App_Robort_Dat_Tag *pExternMsg, S_Internal_Interface_Tag **pInternMsg)$/;"	f	file:	signature:(App_Robort_Dat_Tag *pExternMsg, S_Internal_Interface_Tag **pInternMsg)
+Protocol_Parser	.\parser.c	/^static uint8 Protocol_Parser(App_Robort_Dat_Tag *pExternMsg, S_Internal_Interface_Tag **pInternMsg)$/;"	f	file:	signature:(App_Robort_Dat_Tag *pExternMsg, S_Internal_Interface_Tag **pInternMsg)
+Protocol_Parser	.\parser.h	/^static uint8 Protocol_Parser(App_Robort_Dat_Tag *pExternMsg, S_Internal_Interface_Tag **pInternMsg);$/;"	p	signature:(App_Robort_Dat_Tag *pExternMsg, S_Internal_Interface_Tag **pInternMsg)
+ROBORT_BACK	.\motor.h	/^	ROBORT_BACK,$/;"	e	enum:__anon24
+ROBORT_BEEP_NO	.\beep.h	/^}ROBORT_BEEP_NO;$/;"	t	typeref:enum:__anon2
+ROBORT_BEEP_OFF	.\beep.h	/^	ROBORT_BEEP_OFF$/;"	e	enum:__anon1
+ROBORT_BEEP_ON	.\beep.h	/^	ROBORT_BEEP_ON = 0,$/;"	e	enum:__anon1
+ROBORT_BEEP_TAG	.\beep.h	/^}ROBORT_BEEP_TAG;$/;"	t	typeref:enum:__anon1
+ROBORT_DIRECTION_TAG	.\motor.h	/^}ROBORT_DIRECTION_TAG;$/;"	t	typeref:enum:__anon24
+ROBORT_FORWARD	.\motor.h	/^	ROBORT_FORWARD,$/;"	e	enum:__anon24
+ROBORT_LEFT	.\motor.h	/^	ROBORT_LEFT,$/;"	e	enum:__anon24
+ROBORT_LOCAL_ADDRESS	.\parser.h	10;"	d
+ROBORT_RIGHT	.\motor.h	/^	ROBORT_RIGHT$/;"	e	enum:__anon24
+ROBORT_SPEED_DEFAULT	.\motor.h	/^	ROBORT_SPEED_DEFAULT = 0,$/;"	e	enum:__anon22
+ROBORT_SPEED_L	.\motor.h	/^	ROBORT_SPEED_L = 0,$/;"	e	enum:__anon23
+ROBORT_SPEED_R	.\motor.h	/^	ROBORT_SPEED_R$/;"	e	enum:__anon23
+ROBORT_SPEED_TAG	.\motor.h	/^}ROBORT_SPEED_TAG;$/;"	t	typeref:enum:__anon23
+ROBORT_SPEED_VAL_TAG	.\motor.h	/^}ROBORT_SPEED_VAL_TAG;$/;"	t	typeref:enum:__anon22
+ROBORT_SPEED_VARIBLE	.\motor.h	/^	ROBORT_SPEED_VARIBLE$/;"	e	enum:__anon22
+ROBORT_STEER1	.\steer.h	/^    ROBORT_STEER1 = 0,$/;"	e	enum:__anon28
+ROBORT_STEER2	.\steer.h	/^	ROBORT_STEER2,$/;"	e	enum:__anon28
+ROBORT_STEER3	.\steer.h	/^	ROBORT_STEER3,$/;"	e	enum:__anon28
+ROBORT_STEER4	.\steer.h	/^	ROBORT_STEER4,$/;"	e	enum:__anon28
+ROBORT_STEER5	.\steer.h	/^	ROBORT_STEER5,$/;"	e	enum:__anon28
+ROBORT_STEER6	.\steer.h	/^	ROBORT_STEER6,$/;"	e	enum:__anon28
+ROBORT_STEER7	.\steer.h	/^	ROBORT_STEER7,$/;"	e	enum:__anon28
+ROBORT_STEER8	.\steer.h	/^	ROBORT_STEER8$/;"	e	enum:__anon28
+ROBORT_STEER_TAG	.\steer.h	/^}ROBORT_STEER_TAG;$/;"	t	typeref:enum:__anon28
+ROBORT_STOP	.\motor.h	/^	ROBORT_STOP = 0,$/;"	e	enum:__anon24
+Resolve_Message_Data	.\parser.c	/^static unsigned short Resolve_Message_Data(App_Robort_Dat_Tag *pdata, uint8 *pDst)$/;"	f	file:	signature:(App_Robort_Dat_Tag *pdata, uint8 *pDst)
+RobortBeepThreadServer	.\beep.c	/^void RobortBeepThreadServer(uint32 argAddr)$/;"	f	signature:(uint32 argAddr)
+RobortBeepThreadServer	.\beep.h	/^void RobortBeepThreadServer(uint32 argAddr);$/;"	p	signature:(uint32 argAddr)
+RobortBeepThreadServer	.\main.h	/^extern void RobortBeepThreadServer(uint32 argAddr);$/;"	p	signature:(uint32 argAddr)
+RobortGpsThreadServer	.\gps.c	/^void RobortGpsThreadServer(uint32 argAddr)$/;"	f	signature:(uint32 argAddr)
+RobortGpsThreadServer	.\gps.h	/^void RobortGpsThreadServer(uint32 argAddr);$/;"	p	signature:(uint32 argAddr)
+RobortLightThreadServer	.\light.c	/^void RobortLightThreadServer(uint32 argAddr)$/;"	f	signature:(uint32 argAddr)
+RobortLightThreadServer	.\light.h	/^void RobortLightThreadServer(uint32 argAddr);$/;"	p	signature:(uint32 argAddr)
+RobortMotorThreadServer	.\motor.c	/^void RobortMotorThreadServer(uint32 argAddr)$/;"	f	signature:(uint32 argAddr)
+RobortMotorThreadServer	.\motor.h	/^void RobortMotorThreadServer(uint32 argAddr);$/;"	p	signature:(uint32 argAddr)
+RobortParserThreadServer	.\parser.c	/^void RobortParserThreadServer(uint32 argAddr)$/;"	f	signature:(uint32 argAddr)
+RobortParserThreadServer	.\parser.h	/^void RobortParserThreadServer(uint32 argAddr);$/;"	p	signature:(uint32 argAddr)
+RobortReceiverThreadServer	.\receiver.c	/^void RobortReceiverThreadServer(uint32 argAddr)$/;"	f	signature:(uint32 argAddr)
+RobortReceiverThreadServer	.\receiver.h	/^void RobortReceiverThreadServer(uint32 argAddr);$/;"	p	signature:(uint32 argAddr)
+RobortSteerThreadServer	.\steer.c	/^void RobortSteerThreadServer(uint32 argAddr)$/;"	f	signature:(uint32 argAddr)
+RobortSteerThreadServer	.\steer.h	/^void RobortSteerThreadServer(uint32 argAddr);$/;"	p	signature:(uint32 argAddr)
+Robort_Adress_Veritfy	.\parser.c	/^static uint8 Robort_Adress_Veritfy(App_Robort_Dat_Tag *pdata)$/;"	f	file:	signature:(App_Robort_Dat_Tag *pdata)
+Robort_Adress_Veritfy	.\parser.h	/^static uint8 Robort_Adress_Veritfy(App_Robort_Dat_Tag *pdata);$/;"	p	signature:(App_Robort_Dat_Tag *pdata)
+Robort_App_Dat_Tag	.\common.h	/^typedef struct protocol Robort_App_Dat_Tag;$/;"	t	typeref:struct:protocol
+Robort_Beep_Init	.\beep.c	/^void Robort_Beep_Init(void)$/;"	f	signature:(void)
+Robort_Beep_Init	.\beep.h	/^void Robort_Beep_Init(void);$/;"	p	signature:(void)
+Robort_Direction_Control	.\motor.c	/^static void Robort_Direction_Control(ROBORT_DIRECTION_TAG dir, uint8 speed)$/;"	f	file:	signature:(ROBORT_DIRECTION_TAG dir, uint8 speed)
+Robort_Direction_Control	.\motor.h	/^static void Robort_Direction_Control(ROBORT_DIRECTION_TAG dir, unsigned char speed);$/;"	p	signature:(ROBORT_DIRECTION_TAG dir, unsigned char speed)
+Robort_Fetch_GPS_Data	.\gps.c	/^uint16 Robort_Fetch_GPS_Data(void **pMsg)$/;"	f	signature:(void **pMsg)
+Robort_Fetch_GPS_Data	.\gps.h	/^uint16 Robort_Fetch_GPS_Data(void **pMsg);$/;"	p	signature:(void **pMsg)
+Robort_GPS_Init	.\gps.c	/^void Robort_GPS_Init(void)$/;"	f	signature:(void)
+Robort_GPS_Init	.\gps.h	/^void Robort_GPS_Init(void);$/;"	p	signature:(void)
+Robort_Light_Init	.\light.c	/^void Robort_Light_Init(void)$/;"	f	signature:(void)
+Robort_Light_Init	.\light.h	/^void Robort_Light_Init(void);$/;"	p	signature:(void)
+Robort_Motor_Init	.\motor.c	/^void Robort_Motor_Init(void)$/;"	f	signature:(void)
+Robort_Motor_Init	.\motor.h	/^void Robort_Motor_Init(void);$/;"	p	signature:(void)
+Robort_Parser_Init	.\parser.c	/^void Robort_Parser_Init(void)$/;"	f	signature:(void)
+Robort_Parser_Init	.\parser.h	/^void Robort_Parser_Init(void);$/;"	p	signature:(void)
+Robort_Receiver_Init	.\receiver.c	/^void Robort_Receiver_Init(void)$/;"	f	signature:(void)
+Robort_Receiver_Init	.\receiver.h	/^void Robort_Receiver_Init(void);$/;"	p	signature:(void)
+Robort_Speed_Control	.\motor.c	/^void  Robort_Speed_Control(ROBORT_SPEED_TAG robort_dir, unsigned char robort_speed)$/;"	f	signature:(ROBORT_SPEED_TAG robort_dir, unsigned char robort_speed)
+Robort_Speed_Control	.\motor.h	/^static void Robort_Speed_Control(ROBORT_SPEED_TAG speed_edge, uint8 speed_val);$/;"	p	signature:(ROBORT_SPEED_TAG speed_edge, uint8 speed_val)
+Robort_Steer_Control	.\steer.c	/^static char Robort_Steer_Control(ROBORT_STEER_TAG steerNo,  short turnAngle)$/;"	f	file:	signature:(ROBORT_STEER_TAG steerNo, short turnAngle)
+Robort_Steer_Control	.\steer.h	/^static char Robort_Steer_Control(ROBORT_STEER_TAG steerNo,  short turnAngle);$/;"	p	signature:(ROBORT_STEER_TAG steerNo, short turnAngle)
+Robort_Steer_Init	.\steer.c	/^void Robort_Steer_Init(void)$/;"	f	signature:(void)
+Robort_Steer_Init	.\steer.h	/^void Robort_Steer_Init(void);$/;"	p	signature:(void)
+SLICE_SET	.\common.h	35;"	d
+STM32_GET_GPS_HalfTransferEnd_FLAG	.\gps.c	/^static u8 STM32_GET_GPS_HalfTransferEnd_FLAG()$/;"	f	file:
+STM32_GET_GPS_TransferEnd_FLAG	.\gps.c	/^static u8 STM32_GET_GPS_TransferEnd_FLAG()$/;"	f	file:
+S_Internal_Interface_Tag	.\common.h	/^}S_Internal_Interface_Tag;$/;"	t	typeref:struct:__anon15
+Set_Motor_Direction	.\motor.c	/^static void Set_Motor_Direction(MOTOR_TAG motorNo, DIRECTION_TAG  dir)$/;"	f	file:	signature:(MOTOR_TAG motorNo, DIRECTION_TAG dir)
+Set_Motor_Direction	.\motor.h	/^static void Set_Motor_Direction(MOTOR_TAG motorNo, DIRECTION_TAG  dir);$/;"	p	signature:(MOTOR_TAG motorNo, DIRECTION_TAG dir)
+Set_Motor_Speed	.\motor.c	/^static void Set_Motor_Speed(MOTOR_TAG motorNo, uint8 speed)$/;"	f	file:	signature:(MOTOR_TAG motorNo, uint8 speed)
+Set_Motor_Speed	.\motor.h	/^static void Set_Motor_Speed(MOTOR_TAG motorNo, uint8 speed);$/;"	p	signature:(MOTOR_TAG motorNo, uint8 speed)
+Slice	.\common.h	/^    TTimeTick       Slice;$/;"	m	struct:user_thread_info	access:public
+StackLength	.\common.h	/^    TBase32         StackLength;   $/;"	m	struct:user_thread_info	access:public
+SteerEightControl	.\steer.c	/^static void  SteerEightControl(short turnAngle)$/;"	f	file:	signature:(short turnAngle)
+SteerEightControl	.\steer.h	/^static void  SteerEightControl(short turnAngle);$/;"	p	signature:(short turnAngle)
+SteerFiveControl	.\steer.c	/^static void  SteerFiveControl(short turnAngle)$/;"	f	file:	signature:(short turnAngle)
+SteerFiveControl	.\steer.h	/^static void  SteerFiveControl(short turnAngle);$/;"	p	signature:(short turnAngle)
+SteerFourControl	.\steer.c	/^static void  SteerFourControl(short turnAngle)$/;"	f	file:	signature:(short turnAngle)
+SteerFourControl	.\steer.h	/^static void  SteerFourControl(short turnAngle);$/;"	p	signature:(short turnAngle)
+SteerOneControl	.\steer.c	/^static void  SteerOneControl(short turnAngle)$/;"	f	file:	signature:(short turnAngle)
+SteerOneControl	.\steer.h	/^static void  SteerOneControl(short turnAngle);$/;"	p	signature:(short turnAngle)
+SteerSevenControl	.\steer.c	/^static void  SteerSevenControl(short turnAngle)$/;"	f	file:	signature:(short turnAngle)
+SteerSevenControl	.\steer.h	/^static void  SteerSevenControl(short turnAngle);$/;"	p	signature:(short turnAngle)
+SteerSixControl	.\steer.c	/^static void  SteerSixControl(short turnAngle)$/;"	f	file:	signature:(short turnAngle)
+SteerSixControl	.\steer.h	/^static void  SteerSixControl(short turnAngle);$/;"	p	signature:(short turnAngle)
+SteerThreeControl	.\steer.c	/^static void  SteerThreeControl(short turnAngle)$/;"	f	file:	signature:(short turnAngle)
+SteerThreeControl	.\steer.h	/^static void  SteerThreeControl(short turnAngle);$/;"	p	signature:(short turnAngle)
+SteerTwoControl	.\steer.c	/^static void  SteerTwoControl(short turnAngle)$/;"	f	file:	signature:(short turnAngle)
+SteerTwoControl	.\steer.h	/^static void  SteerTwoControl(short turnAngle);$/;"	p	signature:(short turnAngle)
+THREAD_BEEP_STACK_BYTES	.\common.h	40;"	d
+THREAD_GPS_STACK_BYTES	.\common.h	41;"	d
+THREAD_LIGHT_STACK_BYTES	.\common.h	39;"	d
+THREAD_MOTOR_STACK_BYTES	.\common.h	37;"	d
+THREAD_PARSER_STACK_BYTES	.\common.h	42;"	d
+THREAD_STEER_STACK_BYTES	.\common.h	38;"	d
+Thread	.\common.h	/^    TThread	        *Thread;$/;"	m	struct:user_thread_info	access:public
+ThreadStackTable	.\common.c	/^TBase32 		*ThreadStackTable[BA_THREAD_END_ID] = {NULL};$/;"	v
+ThreadTable	.\common.c	/^TThread 		ThreadTable[BA_THREAD_END_ID] 		= {0};$/;"	v
+_APP_BEEP_H	.\beep.h	2;"	d
+_APP_COMMON_H	.\common.h	2;"	d
+_APP_LIGHT_H	.\light.h	2;"	d
+_APP_MOTOR_H	.\gps.h	2;"	d
+_APP_MOTOR_H	.\motor.h	2;"	d
+_APP_PARSER_H	.\parser.h	2;"	d
+_APP_RECEIVER_H	.\receiver.h	2;"	d
+_APP_STEER_H	.\steer.h	2;"	d
+_MAIN_H	.\main.h	2;"	d
+__anon10::light_no	.\common.h	/^    uint8 light_no;$/;"	m	struct:__anon10	access:public
+__anon10::light_status	.\common.h	/^    uint8 light_status;$/;"	m	struct:__anon10	access:public
+__anon11::direction	.\common.h	/^    uint8 direction;\/\/$/;"	m	struct:__anon11	access:public
+__anon11::speed	.\common.h	/^    uint8 speed;$/;"	m	struct:__anon11	access:public
+__anon11::speed_dir	.\common.h	/^    uint8 speed_dir;\/\/left or right$/;"	m	struct:__anon11	access:public
+__anon11::type	.\common.h	/^    uint8 type;     \/\/set moving or speed$/;"	m	struct:__anon11	access:public
+__anon12::angle	.\common.h	/^    uint8 angle;$/;"	m	struct:__anon12	access:public
+__anon12::steer_no	.\common.h	/^    uint8 steer_no;$/;"	m	struct:__anon12	access:public
+__anon13::gps_cmd	.\common.h	/^    uint8 gps_cmd;$/;"	m	struct:__anon13	access:public
+__anon14::msg_len	.\common.h	/^    uint16 msg_len;$/;"	m	struct:__anon14	access:public
+__anon14::pmsg	.\common.h	/^    void   *pmsg;    $/;"	m	struct:__anon14	access:public
+__anon15::Entry_Type	.\common.h	/^    uint8 Entry_Type;$/;"	m	struct:__anon15	access:public
+__anon15::__anon16::g2s_tag	.\common.h	/^        Gps_Sender_Dat_Tag      g2s_tag;$/;"	m	union:__anon15::__anon16	access:public
+__anon15::__anon16::p2b_tag	.\common.h	/^        Parser_Beep_Dat_Tag     p2b_tag;$/;"	m	union:__anon15::__anon16	access:public
+__anon15::__anon16::p2g_tag	.\common.h	/^        Parser_Gps_Dat_Tag      p2g_tag;$/;"	m	union:__anon15::__anon16	access:public
+__anon15::__anon16::p2l_tag	.\common.h	/^        Parser_Light_Dat_Tag    p2l_tag;$/;"	m	union:__anon15::__anon16	access:public
+__anon15::__anon16::p2m_tag	.\common.h	/^        Parser_Motor_Dat_Tag    p2m_tag;$/;"	m	union:__anon15::__anon16	access:public
+__anon15::__anon16::p2s_tag	.\common.h	/^        Parser_Steer_Dat_Tag    p2s_tag;$/;"	m	union:__anon15::__anon16	access:public
+__anon15::data	.\common.h	/^    }data;$/;"	m	struct:__anon15	typeref:union:__anon15::__anon16	access:public
+__anon9::beep_no	.\common.h	/^    uint8 beep_no;      \/\/beep number$/;"	m	struct:__anon9	access:public
+__anon9::beep_status	.\common.h	/^    uint8 beep_status;  \/\/beep status$/;"	m	struct:__anon9	access:public
+angle	.\common.h	/^    uint8 angle;$/;"	m	struct:__anon12	access:public
+beep_no	.\common.h	/^    uint8 beep_no;      \/\/beep number$/;"	m	struct:__anon9	access:public
+beep_status	.\common.h	/^    uint8 beep_status;  \/\/beep status$/;"	m	struct:__anon9	access:public
+calDutyCycle	.\steer.c	/^static unsigned char calDutyCycle(short turnAngle)$/;"	f	file:	signature:(short turnAngle)
+data	.\common.h	/^    }data;$/;"	m	struct:__anon15	typeref:union:__anon15::__anon16	access:public
+direction	.\common.h	/^    uint8 direction;\/\/$/;"	m	struct:__anon11	access:public
+direction	.\gps.h	/^	}direction;$/;"	m	struct:GPS_Info	typeref:union:GPS_Info::__anon19	access:public
+fDir	.\gps.h	/^		uint32_t fDir;$/;"	m	union:GPS_Info::__anon19	access:public
+fLat	.\gps.h	/^		uint32_t fLat;$/;"	m	union:GPS_Info::__anon17	access:public
+fLon	.\gps.h	/^		uint32_t fLon;$/;"	m	union:GPS_Info::__anon18	access:public
+fSpeed	.\gps.h	/^		uint32_t fSpeed;$/;"	m	union:GPS_Info::__anon20	access:public
+g2s_tag	.\common.h	/^        Gps_Sender_Dat_Tag      g2s_tag;$/;"	m	union:__anon15::__anon16	access:public
+gFlagSpeedRset_L	.\motor.c	/^static uint8 gFlagSpeedRset_L = 0; \/\/代表robort左侧车速是否被远程终端修改过$/;"	v	file:
+gFlagSpeedRset_R	.\motor.c	/^static uint8 gFlagSpeedRset_R = 0; \/\/代表robort右侧车速是否被远程终端修改过$/;"	v	file:
+gRobortSpeed_L	.\motor.c	/^static uint8 gRobortSpeed_L = 0; \/\/代表robort左侧的车速$/;"	v	file:
+gRobortSpeed_R	.\motor.c	/^static uint8 gRobortSpeed_R = 0; \/\/代表robort右侧的车速$/;"	v	file:
+gRobortSysSpeed	.\motor.c	/^static uint8 gRobortSysSpeed = 30;\/\/代表robort系统初始速度$/;"	v	file:
+gps_cmd	.\common.h	/^    uint8 gps_cmd;$/;"	m	struct:__anon13	access:public
+info	.\gps.c	/^nmeaINFO info;          \/\/GPS解码后得到的信息$/;"	v
+int8	.\common.h	/^typedef          char      int8;$/;"	t
+lat	.\gps.h	/^	}lat;$/;"	m	struct:GPS_Info	typeref:union:GPS_Info::__anon17	access:public
+light_no	.\common.h	/^    uint8 light_no;$/;"	m	struct:__anon10	access:public
+light_status	.\common.h	/^    uint8 light_status;$/;"	m	struct:__anon10	access:public
+lon	.\gps.h	/^	}lon;$/;"	m	struct:GPS_Info	typeref:union:GPS_Info::__anon18	access:public
+main	.\main.c	/^int main(void)$/;"	f	signature:(void)
+msg_len	.\common.h	/^    uint16 msg_len;$/;"	m	struct:__anon14	access:public
+new_parse	.\gps.c	/^uint8_t new_parse=0;    \/\/是否有新的解码数据标志$/;"	v
+p2b_tag	.\common.h	/^        Parser_Beep_Dat_Tag     p2b_tag;$/;"	m	union:__anon15::__anon16	access:public
+p2g_tag	.\common.h	/^        Parser_Gps_Dat_Tag      p2g_tag;$/;"	m	union:__anon15::__anon16	access:public
+p2l_tag	.\common.h	/^        Parser_Light_Dat_Tag    p2l_tag;$/;"	m	union:__anon15::__anon16	access:public
+p2m_tag	.\common.h	/^        Parser_Motor_Dat_Tag    p2m_tag;$/;"	m	union:__anon15::__anon16	access:public
+p2s_tag	.\common.h	/^        Parser_Steer_Dat_Tag    p2s_tag;$/;"	m	union:__anon15::__anon16	access:public
+pExternMsg	.\parser.c	/^App_Robort_Dat_Tag *pExternMsg;$/;"	v
+pInterMsg	.\parser.c	/^S_Internal_Interface_Tag  *pInterMsg;$/;"	v
+pMsg	.\common.h	/^	uint8 *pMsg;    		\/\/msg buffer size$/;"	m	struct:protocol	access:public
+pThreadEntry	.\common.h	/^    TThreadEntry    pThreadEntry;$/;"	m	struct:user_thread_info	access:public
+pThreadEntryTable	.\common.c	/^TThreadEntry 	pThreadEntryTable[BA_THREAD_END_ID] = {NULL};$/;"	v
+pThreadName	.\common.h	/^    TChar	        *pThreadName;$/;"	m	struct:user_thread_info	access:public
+pThreadStack	.\common.h	/^    void            *pThreadStack;$/;"	m	struct:user_thread_info	access:public
+parser	.\gps.c	/^nmeaPARSER parser;      \/\/解码时使用的数据结构  $/;"	v
+pmsg	.\common.h	/^    void   *pmsg;    $/;"	m	struct:__anon14	access:public
+protocol	.\common.h	/^struct protocol$/;"	s
+protocol::Addr	.\common.h	/^	uint8 Addr;             \/\/robort local address$/;"	m	struct:protocol	access:public
+protocol::Cmd	.\common.h	/^	uint8 Cmd;              \/\/Command type$/;"	m	struct:protocol	access:public
+protocol::Crc_H	.\common.h	/^	uint8 Crc_H;            \/\/crc check MSB$/;"	m	struct:protocol	access:public
+protocol::Crc_L	.\common.h	/^	uint8 Crc_L;            \/\/crc check LSB$/;"	m	struct:protocol	access:public
+protocol::Frame_Head	.\common.h	/^	uint8 Frame_Head;       \/\/0xff$/;"	m	struct:protocol	access:public
+protocol::Msg_H	.\common.h	/^	uint8 Msg_H;            \/\/Data[] length MSB$/;"	m	struct:protocol	access:public
+protocol::Msg_L	.\common.h	/^	uint8 Msg_L;            \/\/Data[] length LSB$/;"	m	struct:protocol	access:public
+protocol::pMsg	.\common.h	/^	uint8 *pMsg;    		\/\/msg buffer size$/;"	m	struct:protocol	access:public
+sAtinfo_iNuse	.\gps.h	/^	u8 sAtinfo_iNuse;$/;"	m	struct:GPS_Info	access:public
+sAtinfo_iNview	.\gps.h	/^	u8 sAtinfo_iNview;$/;"	m	struct:GPS_Info	access:public
+speed	.\common.h	/^    uint8 speed;$/;"	m	struct:__anon11	access:public
+speed	.\gps.h	/^	}speed;	$/;"	m	struct:GPS_Info	typeref:union:GPS_Info::__anon20	access:public
+speed_dir	.\common.h	/^    uint8 speed_dir;\/\/left or right$/;"	m	struct:__anon11	access:public
+steer_no	.\common.h	/^    uint8 steer_no;$/;"	m	struct:__anon12	access:public
+type	.\common.h	/^    uint8 type;     \/\/set moving or speed$/;"	m	struct:__anon11	access:public
+uDir	.\gps.h	/^		u8    uDir[4];$/;"	m	union:GPS_Info::__anon19	access:public
+uLat	.\gps.h	/^		u8   uLat[4];$/;"	m	union:GPS_Info::__anon17	access:public
+uLon	.\gps.h	/^		u8    uLon[4];   $/;"	m	union:GPS_Info::__anon18	access:public
+uSpeed	.\gps.h	/^		u8    uSpeed[4]; $/;"	m	union:GPS_Info::__anon20	access:public
+uchar	.\common.h	/^typedef unsigned char      uchar;$/;"	t
+uint16	.\common.h	/^typedef unsigned short     uint16;$/;"	t
+uint32	.\common.h	/^typedef unsigned int       uint32;$/;"	t
+uint64	.\common.h	/^typedef unsigned long long uint64;$/;"	t
+uint8	.\common.h	/^typedef unsigned char      uint8;$/;"	t
+ulong	.\common.h	/^typedef unsigned long long ulong;$/;"	t
+user_thread_info	.\common.h	/^typedef struct user_thread_info$/;"	s
+user_thread_info::Argument	.\common.h	/^    TArgument       Argument; $/;"	m	struct:user_thread_info	access:public
+user_thread_info::Priority	.\common.h	/^    TBase32         Priority;$/;"	m	struct:user_thread_info	access:public
+user_thread_info::Slice	.\common.h	/^    TTimeTick       Slice;$/;"	m	struct:user_thread_info	access:public
+user_thread_info::StackLength	.\common.h	/^    TBase32         StackLength;   $/;"	m	struct:user_thread_info	access:public
+user_thread_info::Thread	.\common.h	/^    TThread	        *Thread;$/;"	m	struct:user_thread_info	access:public
+user_thread_info::pThreadEntry	.\common.h	/^    TThreadEntry    pThreadEntry;$/;"	m	struct:user_thread_info	access:public
+user_thread_info::pThreadName	.\common.h	/^    TChar	        *pThreadName;$/;"	m	struct:user_thread_info	access:public
+user_thread_info::pThreadStack	.\common.h	/^    void            *pThreadStack;$/;"	m	struct:user_thread_info	access:public

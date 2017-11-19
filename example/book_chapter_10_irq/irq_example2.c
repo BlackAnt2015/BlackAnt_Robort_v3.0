@@ -52,7 +52,7 @@ static TBitMask EvbKeyISR(TArgument data)
         state = TclPostIRQ(&irq1,
                            IrqCallback,
                            (TArgument)(&LedSemaphore1),
-                           (TPriority)5,
+                           (TBase32)5,
                            &error);
         TCLM_ASSERT((state == eSuccess), "");
         TCLM_ASSERT((error == TCLE_IRQ_NONE), "");
@@ -64,7 +64,7 @@ static TBitMask EvbKeyISR(TArgument data)
         state = TclPostIRQ(&irq2,
                            IrqCallback,
                            (TArgument)(&LedSemaphore2),
-                           (TPriority)5,
+                           (TBase32)5,
                            &error);
         TCLM_ASSERT((state == eSuccess), "");
         TCLM_ASSERT((error == TCLE_IRQ_NONE), "");

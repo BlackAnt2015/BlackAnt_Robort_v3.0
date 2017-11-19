@@ -29,7 +29,7 @@ static void ThreadLedEntry(TArgument data)
     TState state;
     TError error;
     TBitMask pattern;
-    TOption option;
+    TBitMask option;
 
     while (eTrue)
     {

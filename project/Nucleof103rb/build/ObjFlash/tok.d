@@ -1,0 +1,10 @@
+.\build\objflash\tok.o: ..\..\nmea_decode\src\tok.c
+.\build\objflash\tok.o: ..\..\nmea_decode\include\nmea/tok.h
+.\build\objflash\tok.o: ..\..\nmea_decode\include\nmea/config.h
+.\build\objflash\tok.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\build\objflash\tok.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\build\objflash\tok.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\build\objflash\tok.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\build\objflash\tok.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+.\build\objflash\tok.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\build\objflash\tok.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h

@@ -27,7 +27,7 @@ static TBase32 ThreadCTRLStack[THREAD_CTRL_STACK_BYTES/4];
 /* 用户邮件类型定义 */
 typedef struct
 {
-    TIndex Index;
+    TBase32 Index;
     TByte Value;
 } TLedMail;
 

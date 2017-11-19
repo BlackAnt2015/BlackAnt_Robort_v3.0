@@ -1,0 +1,376 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+AddLock	.\ipc\tcl.mutex.c	/^static TState AddLock(TThread* pThread, TMutex* pMutex, TBool* pHiRP, TError* pError)$/;"	f	file:	signature:(TThread* pThread, TMutex* pMutex, TBool* pHiRP, TError* pError)
+BUDDY_PROP_NONE	.\tcl.memory.c	16;"	d	file:
+BUDDY_PROP_READY	.\tcl.memory.c	17;"	d	file:
+BuildPageTree	.\tcl.memory.c	/^static void BuildPageTree(TMemBuddy* pBuddy)$/;"	f	file:	signature:(TMemBuddy* pBuddy)
+CM0_NVIC_INT_CTRL	.\cpu\bk\tcl.stm32f030.c	32;"	d	file:
+CM0_NVIC_INT_CTRL_PENDSTCLR	.\cpu\bk\tcl.stm32f030.c	36;"	d	file:
+CM0_NVIC_INT_CTRL_PENDSTSET	.\cpu\bk\tcl.stm32f030.c	35;"	d	file:
+CM0_NVIC_INT_CTRL_PENDSVCLR	.\cpu\bk\tcl.stm32f030.c	34;"	d	file:
+CM0_NVIC_INT_CTRL_PENDSVSET	.\cpu\bk\tcl.stm32f030.c	33;"	d	file:
+CM0_NVIC_PENDSV_PRIORITY	.\cpu\bk\tcl.stm32f030.c	30;"	d	file:
+CM0_NVIC_SHPR_PENDSV	.\cpu\bk\tcl.stm32f030.c	27;"	d	file:
+CM0_SYSTICK_CAL	.\cpu\bk\tcl.stm32f030.c	20;"	d	file:
+CM0_SYSTICK_CTRL	.\cpu\bk\tcl.stm32f030.c	17;"	d	file:
+CM0_SYSTICK_CTRL_CLK_SRC	.\cpu\bk\tcl.stm32f030.c	23;"	d	file:
+CM0_SYSTICK_CTRL_COUNT	.\cpu\bk\tcl.stm32f030.c	22;"	d	file:
+CM0_SYSTICK_CTRL_ENABLE	.\cpu\bk\tcl.stm32f030.c	25;"	d	file:
+CM0_SYSTICK_CTRL_INTEN	.\cpu\bk\tcl.stm32f030.c	24;"	d	file:
+CM0_SYSTICK_CURRENT	.\cpu\bk\tcl.stm32f030.c	19;"	d	file:
+CM0_SYSTICK_RELOAD	.\cpu\bk\tcl.stm32f030.c	18;"	d	file:
+CM0_SYS_INT_STATUS	.\cpu\bk\tcl.stm32f030.c	29;"	d	file:
+CM3_ICSR	.\arch\tcl.arm.cm3.c	26;"	d	file:
+CM3_ICSR	.\cpu\bk\tcl.stm32f103.c	28;"	d	file:
+CM3_ICSR	.\cpu\bk\tcl.stm32f401.c	28;"	d	file:
+CM3_ICSR	.\cpu\tcl.gd32.f150r8.c	28;"	d	file:
+CM3_ICSR_PENDSTCLR	.\arch\tcl.arm.cm3.c	30;"	d	file:
+CM3_ICSR_PENDSTCLR	.\cpu\bk\tcl.stm32f103.c	32;"	d	file:
+CM3_ICSR_PENDSTCLR	.\cpu\bk\tcl.stm32f401.c	32;"	d	file:
+CM3_ICSR_PENDSTCLR	.\cpu\tcl.gd32.f150r8.c	32;"	d	file:
+CM3_ICSR_PENDSTSET	.\arch\tcl.arm.cm3.c	29;"	d	file:
+CM3_ICSR_PENDSTSET	.\cpu\bk\tcl.stm32f103.c	31;"	d	file:
+CM3_ICSR_PENDSTSET	.\cpu\bk\tcl.stm32f401.c	31;"	d	file:
+CM3_ICSR_PENDSTSET	.\cpu\tcl.gd32.f150r8.c	31;"	d	file:
+CM3_ICSR_PENDSVCLR	.\arch\tcl.arm.cm3.c	28;"	d	file:
+CM3_ICSR_PENDSVCLR	.\cpu\bk\tcl.stm32f103.c	30;"	d	file:
+CM3_ICSR_PENDSVCLR	.\cpu\bk\tcl.stm32f401.c	30;"	d	file:
+CM3_ICSR_PENDSVCLR	.\cpu\tcl.gd32.f150r8.c	30;"	d	file:
+CM3_ICSR_PENDSVSET	.\arch\tcl.arm.cm3.c	27;"	d	file:
+CM3_ICSR_PENDSVSET	.\cpu\bk\tcl.stm32f103.c	29;"	d	file:
+CM3_ICSR_PENDSVSET	.\cpu\bk\tcl.stm32f401.c	29;"	d	file:
+CM3_ICSR_PENDSVSET	.\cpu\tcl.gd32.f150r8.c	29;"	d	file:
+CM3_PENDSV_PRIORITY	.\arch\tcl.arm.cm3.c	34;"	d	file:
+CM3_PENDSV_PRIORITY	.\cpu\bk\tcl.stm32f103.c	36;"	d	file:
+CM3_PENDSV_PRIORITY	.\cpu\bk\tcl.stm32f401.c	36;"	d	file:
+CM3_PENDSV_PRIORITY	.\cpu\tcl.gd32.f150r8.c	36;"	d	file:
+CM3_PRIO_PENDSV	.\arch\tcl.arm.cm3.c	33;"	d	file:
+CM3_PRIO_PENDSV	.\cpu\bk\tcl.stm32f103.c	35;"	d	file:
+CM3_PRIO_PENDSV	.\cpu\bk\tcl.stm32f401.c	35;"	d	file:
+CM3_PRIO_PENDSV	.\cpu\tcl.gd32.f150r8.c	35;"	d	file:
+CM3_SYSTICK_CLKSRC	.\arch\tcl.arm.cm3.c	12;"	d	file:
+CM3_SYSTICK_CLKSRC	.\cpu\bk\tcl.stm32f103.c	14;"	d	file:
+CM3_SYSTICK_CLKSRC	.\cpu\bk\tcl.stm32f401.c	14;"	d	file:
+CM3_SYSTICK_CLKSRC	.\cpu\tcl.gd32.f150r8.c	14;"	d	file:
+CM3_SYSTICK_CTRL	.\arch\tcl.arm.cm3.c	11;"	d	file:
+CM3_SYSTICK_CTRL	.\cpu\bk\tcl.stm32f103.c	13;"	d	file:
+CM3_SYSTICK_CTRL	.\cpu\bk\tcl.stm32f401.c	13;"	d	file:
+CM3_SYSTICK_CTRL	.\cpu\tcl.gd32.f150r8.c	13;"	d	file:
+CM3_SYSTICK_CURRENT	.\arch\tcl.arm.cm3.c	20;"	d	file:
+CM3_SYSTICK_CURRENT	.\cpu\bk\tcl.stm32f103.c	22;"	d	file:
+CM3_SYSTICK_CURRENT	.\cpu\bk\tcl.stm32f401.c	22;"	d	file:
+CM3_SYSTICK_CURRENT	.\cpu\tcl.gd32.f150r8.c	22;"	d	file:
+CM3_SYSTICK_ENABLE	.\arch\tcl.arm.cm3.c	14;"	d	file:
+CM3_SYSTICK_ENABLE	.\cpu\bk\tcl.stm32f103.c	16;"	d	file:
+CM3_SYSTICK_ENABLE	.\cpu\bk\tcl.stm32f401.c	16;"	d	file:
+CM3_SYSTICK_ENABLE	.\cpu\tcl.gd32.f150r8.c	16;"	d	file:
+CM3_SYSTICK_INTEN	.\arch\tcl.arm.cm3.c	13;"	d	file:
+CM3_SYSTICK_INTEN	.\cpu\bk\tcl.stm32f103.c	15;"	d	file:
+CM3_SYSTICK_INTEN	.\cpu\bk\tcl.stm32f401.c	15;"	d	file:
+CM3_SYSTICK_INTEN	.\cpu\tcl.gd32.f150r8.c	15;"	d	file:
+CM3_SYSTICK_RELOAD	.\arch\tcl.arm.cm3.c	17;"	d	file:
+CM3_SYSTICK_RELOAD	.\cpu\bk\tcl.stm32f103.c	19;"	d	file:
+CM3_SYSTICK_RELOAD	.\cpu\bk\tcl.stm32f401.c	19;"	d	file:
+CM3_SYSTICK_RELOAD	.\cpu\tcl.gd32.f150r8.c	19;"	d	file:
+CM3_SYSTICK_TENMS	.\arch\tcl.arm.cm3.c	23;"	d	file:
+CM3_SYSTICK_TENMS	.\cpu\bk\tcl.stm32f103.c	25;"	d	file:
+CM3_SYSTICK_TENMS	.\cpu\bk\tcl.stm32f401.c	25;"	d	file:
+CM3_SYSTICK_TENMS	.\cpu\tcl.gd32.f150r8.c	25;"	d	file:
+CM4_ICSR	.\arch\tcl.arm.cm4.c	26;"	d	file:
+CM4_ICSR_PENDSTCLR	.\arch\tcl.arm.cm4.c	30;"	d	file:
+CM4_ICSR_PENDSTSET	.\arch\tcl.arm.cm4.c	29;"	d	file:
+CM4_ICSR_PENDSVCLR	.\arch\tcl.arm.cm4.c	28;"	d	file:
+CM4_ICSR_PENDSVSET	.\arch\tcl.arm.cm4.c	27;"	d	file:
+CM4_PENDSV_PRIORITY	.\arch\tcl.arm.cm4.c	34;"	d	file:
+CM4_PRIO_PENDSV	.\arch\tcl.arm.cm4.c	33;"	d	file:
+CM4_SYSTICK_CLKSRC	.\arch\tcl.arm.cm4.c	12;"	d	file:
+CM4_SYSTICK_CTRL	.\arch\tcl.arm.cm4.c	11;"	d	file:
+CM4_SYSTICK_CURRENT	.\arch\tcl.arm.cm4.c	20;"	d	file:
+CM4_SYSTICK_ENABLE	.\arch\tcl.arm.cm4.c	14;"	d	file:
+CM4_SYSTICK_INTEN	.\arch\tcl.arm.cm4.c	13;"	d	file:
+CM4_SYSTICK_RELOAD	.\arch\tcl.arm.cm4.c	17;"	d	file:
+CM4_SYSTICK_TENMS	.\arch\tcl.arm.cm4.c	23;"	d	file:
+CalcThreadHiRP	.\tcl.thread.c	/^static TBase32 CalcThreadHiRP(void)$/;"	f	file:	signature:(void)
+CheckThreadStack	.\tcl.thread.c	/^static void CheckThreadStack(TThread* pThread)$/;"	f	file:	signature:(TThread* pThread)
+ConsumeMessage	.\ipc\tcl.message.c	/^static void ConsumeMessage(TMsgQueue* pMsgQue, void** pMsg2)$/;"	f	file:	signature:(TMsgQueue* pMsgQue, void** pMsg2)
+DispatchExpiredTimer	.\tcl.timer.c	/^static void DispatchExpiredTimer(TTimer* pTimer)$/;"	f	file:	signature:(TTimer* pTimer)
+EXTI0_1_IRQHandler	.\cpu\tcl.gd32.f150r8.c	/^void EXTI0_1_IRQHandler(void)$/;"	f	signature:(void)
+EXTI0_IRQHandler	.\cpu\tcl.gd32.f450ve.c	/^void EXTI0_IRQHandler(void)$/;"	f	signature:(void)
+EXTI15_10_IRQHandler	.\cpu\bk\tcl.stm32f103.c	/^void EXTI15_10_IRQHandler(void)$/;"	f	signature:(void)
+EXTI15_10_IRQHandler	.\cpu\bk\tcl.stm32f401.c	/^void EXTI15_10_IRQHandler(void)$/;"	f	signature:(void)
+EXTI15_10_IRQHandler	.\cpu\tcl.stm32.f103rb.c	/^void EXTI15_10_IRQHandler(void)$/;"	f	signature:(void)
+EXTI1_IRQHandler	.\cpu\tcl.gd32.f450ve.c	/^void EXTI1_IRQHandler(void)$/;"	f	signature:(void)
+EXTI4_15_IRQHandler	.\cpu\bk\tcl.stm32f030.c	/^void EXTI4_15_IRQHandler(void)$/;"	f	signature:(void)
+EXTI4_15_IRQHandler	.\cpu\tcl.gd32.f150r8.c	/^void EXTI4_15_IRQHandler(void)$/;"	f	signature:(void)
+EXTI4_15_IRQHandler	.\cpu\tcl.gd32.f190r8.c	/^void EXTI4_15_IRQHandler(void)$/;"	f	signature:(void)
+FreeMutex	.\ipc\tcl.mutex.c	/^static TState FreeMutex(TMutex* pMutex, TBool* pHiRP, TError* pError)$/;"	f	file:	signature:(TMutex* pMutex, TBool* pHiRP, TError* pError)
+FreePages	.\tcl.memory.c	/^static TBase32 FreePages(TMemBuddy* pBuddy, TBase32 index)$/;"	f	file:	signature:(TMemBuddy* pBuddy, TBase32 index)
+GetAvailPages	.\tcl.memory.c	/^static int GetAvailPages(TMemBuddy* pBuddy)$/;"	f	file:	signature:(TMemBuddy* pBuddy)
+Handle	.\tcl.irq.c	/^    TLinkNode* Handle;$/;"	m	struct:IrqListDef	file:	access:public
+IRQ_VECTOR_PROP_LOCKED	.\tcl.irq.c	21;"	d	file:
+IRQ_VECTOR_PROP_LOCKED	.\tcl.irq.c	387;"	d	file:
+IRQ_VECTOR_PROP_NONE	.\tcl.irq.c	19;"	d	file:
+IRQ_VECTOR_PROP_NONE	.\tcl.irq.c	385;"	d	file:
+IRQ_VECTOR_PROP_READY	.\tcl.irq.c	20;"	d	file:
+IRQ_VECTOR_PROP_READY	.\tcl.irq.c	386;"	d	file:
+IrqDaemonEntry	.\tcl.irq.c	/^static void IrqDaemonEntry(TArgument argument)$/;"	f	file:	signature:(TArgument argument)
+IrqDaemonStack	.\tcl.irq.c	/^static TBase32 IrqDaemonStack[TCLC_IRQ_DAEMON_STACK_BYTES >> 2];$/;"	v	file:
+IrqDaemonThread	.\tcl.irq.c	/^static TThread IrqDaemonThread;$/;"	v	file:
+IrqListDef	.\tcl.irq.c	/^typedef struct IrqListDef$/;"	s	file:
+IrqListDef::Handle	.\tcl.irq.c	/^    TLinkNode* Handle;$/;"	m	struct:IrqListDef	file:	access:public
+IrqMapTable	.\tcl.irq.c	/^static TAddr32 IrqMapTable[TCLC_CPU_IRQ_NUM];$/;"	v	file:
+IrqReqList	.\tcl.irq.c	/^static TIrqList IrqReqList;$/;"	v	file:
+IrqVectorTable	.\tcl.irq.c	/^static TIrqVector IrqVectorTable[TCLC_IRQ_VECTOR_NUM];$/;"	v	file:
+LEFT_NODE	.\tcl.memory.c	22;"	d	file:
+LOAD_NOMINEE_FILE	.\arch\tcl.arm.cm3.keil.asm	/^LOAD_NOMINEE_FILE$/;"	l
+LOAD_NOMINEE_FILE	.\arch\tcl.arm.cm4.keil.asm	/^LOAD_NOMINEE_FILE$/;"	l
+LOAD_NOMINEE_FILE	.\cpu\bk\tcl.stm32f030.keil.asm	/^LOAD_NOMINEE_FILE$/;"	l
+LOAD_NOMINEE_FILE	.\cpu\bk\tcl.stm32f103.keil.asm	/^LOAD_NOMINEE_FILE$/;"	l
+LOAD_NOMINEE_FILE	.\cpu\bk\tcl.stm32f401.keil.asm	/^LOAD_NOMINEE_FILE$/;"	l
+LockMutex	.\ipc\tcl.mutex.c	/^static TState LockMutex(TMutex* pMutex, TBool* pHiRP, TError* pError)$/;"	f	file:	signature:(TMutex* pMutex, TBool* pHiRP, TError* pError)
+MallocPages	.\tcl.memory.c	/^static TBase32 MallocPages(TMemBuddy* pBuddy, TBase32 pages)$/;"	f	file:	signature:(TMemBuddy* pBuddy, TBase32 pages)
+NVIC_INT_CTRL2	.\cpu\bk\tcl.stm32f030.keil.asm	/^NVIC_INT_CTRL2   EQU     0xE000ED04                              ; Interrupt control state register.$/;"	d
+NVIC_PENDSVSET2	.\cpu\bk\tcl.stm32f030.keil.asm	/^NVIC_PENDSVSET2  EQU     0x10000000                              ; Value to trigger PendSV exception.$/;"	d
+NVIC_PENDSV_PRI2	.\cpu\bk\tcl.stm32f030.keil.asm	/^NVIC_PENDSV_PRI2 EQU     0x00FF0000                              ; PendSV priority value (lowest).$/;"	d
+NVIC_SYSPRI142	.\cpu\bk\tcl.stm32f030.keil.asm	/^NVIC_SYSPRI142   EQU     0xE000ED20                              ; System priority register (priority 14).$/;"	d
+NeverHere	.\cpu\bk\tcl.stm32f030.keil.asm	/^NeverHere$/;"	l
+ObtainSemaphore	.\ipc\tcl.semaphore.c	/^static TState ObtainSemaphore(TSemaphore* pSemaphore, TBool* pHiRP, TError* pError)$/;"	f	file:	signature:(TSemaphore* pSemaphore, TBool* pHiRP, TError* pError)
+OsCpuBuildThreadStack	.\arch\tcl.arm.cm3.c	/^void OsCpuBuildThreadStack(TAddr32* pTop, void* pStack, TBase32 bytes,$/;"	f	signature:(TAddr32* pTop, void* pStack, TBase32 bytes, void* pEntry, TArgument argument)
+OsCpuBuildThreadStack	.\arch\tcl.arm.cm4.c	/^void OsCpuBuildThreadStack(TAddr32* pTop, void* pStack, TBase32 bytes,$/;"	f	signature:(TAddr32* pTop, void* pStack, TBase32 bytes, void* pEntry, TArgument argument)
+OsCpuBuildThreadStack	.\cpu\bk\tcl.stm32f030.c	/^void OsCpuBuildThreadStack(TAddr32* pTop, void* pStack, TBase32 bytes,$/;"	f	signature:(TAddr32* pTop, void* pStack, TBase32 bytes, void* pEntry, TArgument argument)
+OsCpuBuildThreadStack	.\cpu\bk\tcl.stm32f103.c	/^void OsCpuBuildThreadStack(TAddr32* pTop, void* pStack, TBase32 bytes,$/;"	f	signature:(TAddr32* pTop, void* pStack, TBase32 bytes, void* pEntry, TArgument argument)
+OsCpuBuildThreadStack	.\cpu\bk\tcl.stm32f401.c	/^void OsCpuBuildThreadStack(TAddr32* pTop, void* pStack, TBase32 bytes,$/;"	f	signature:(TAddr32* pTop, void* pStack, TBase32 bytes, void* pEntry, TArgument argument)
+OsCpuBuildThreadStack	.\cpu\tcl.gd32.f150r8.c	/^void OsCpuBuildThreadStack(TAddr32* pTop, void* pStack, TBase32 bytes,$/;"	f	signature:(TAddr32* pTop, void* pStack, TBase32 bytes, void* pEntry, TArgument argument)
+OsCpuCalcHiPRIO	.\arch\tcl.arm.cm3.keil.asm	/^OsCpuCalcHiPRIO$/;"	l
+OsCpuCalcHiPRIO	.\arch\tcl.arm.cm4.keil.asm	/^OsCpuCalcHiPRIO$/;"	l
+OsCpuCalcHiPRIO	.\cpu\bk\tcl.stm32f030.c	/^TBase32 OsCpuCalcHiPRIO(TBase32 data)$/;"	f	signature:(TBase32 data)
+OsCpuCalcHiPRIO	.\cpu\bk\tcl.stm32f103.keil.asm	/^OsCpuCalcHiPRIO$/;"	l
+OsCpuCalcHiPRIO	.\cpu\bk\tcl.stm32f401.keil.asm	/^OsCpuCalcHiPRIO$/;"	l
+OsCpuCancelThreadSwitch	.\arch\tcl.arm.cm3.c	/^void OsCpuCancelThreadSwitch(void)$/;"	f	signature:(void)
+OsCpuCancelThreadSwitch	.\arch\tcl.arm.cm4.c	/^void OsCpuCancelThreadSwitch(void)$/;"	f	signature:(void)
+OsCpuCancelThreadSwitch	.\cpu\bk\tcl.stm32f030.c	/^void OsCpuCancelThreadSwitch(void)$/;"	f	signature:(void)
+OsCpuCancelThreadSwitch	.\cpu\bk\tcl.stm32f103.c	/^void OsCpuCancelThreadSwitch(void)$/;"	f	signature:(void)
+OsCpuCancelThreadSwitch	.\cpu\bk\tcl.stm32f401.c	/^void OsCpuCancelThreadSwitch(void)$/;"	f	signature:(void)
+OsCpuCancelThreadSwitch	.\cpu\tcl.gd32.f150r8.c	/^void OsCpuCancelThreadSwitch(void)$/;"	f	signature:(void)
+OsCpuConfirmThreadSwitch	.\arch\tcl.arm.cm3.c	/^void OsCpuConfirmThreadSwitch(void)$/;"	f	signature:(void)
+OsCpuConfirmThreadSwitch	.\arch\tcl.arm.cm4.c	/^void OsCpuConfirmThreadSwitch(void)$/;"	f	signature:(void)
+OsCpuConfirmThreadSwitch	.\cpu\bk\tcl.stm32f030.c	/^void OsCpuConfirmThreadSwitch(void)$/;"	f	signature:(void)
+OsCpuConfirmThreadSwitch	.\cpu\bk\tcl.stm32f103.c	/^void OsCpuConfirmThreadSwitch(void)$/;"	f	signature:(void)
+OsCpuConfirmThreadSwitch	.\cpu\bk\tcl.stm32f401.c	/^void OsCpuConfirmThreadSwitch(void)$/;"	f	signature:(void)
+OsCpuConfirmThreadSwitch	.\cpu\tcl.gd32.f150r8.c	/^void OsCpuConfirmThreadSwitch(void)$/;"	f	signature:(void)
+OsCpuDisableInt	.\arch\tcl.arm.cm3.keil.asm	/^OsCpuDisableInt$/;"	l
+OsCpuDisableInt	.\arch\tcl.arm.cm4.keil.asm	/^OsCpuDisableInt$/;"	l
+OsCpuDisableInt	.\cpu\bk\tcl.stm32f030.keil.asm	/^OsCpuDisableInt$/;"	l
+OsCpuDisableInt	.\cpu\bk\tcl.stm32f103.keil.asm	/^OsCpuDisableInt$/;"	l
+OsCpuDisableInt	.\cpu\bk\tcl.stm32f401.keil.asm	/^OsCpuDisableInt$/;"	l
+OsCpuEnableInt	.\arch\tcl.arm.cm3.keil.asm	/^OsCpuEnableInt$/;"	l
+OsCpuEnableInt	.\arch\tcl.arm.cm4.keil.asm	/^OsCpuEnableInt$/;"	l
+OsCpuEnableInt	.\cpu\bk\tcl.stm32f030.keil.asm	/^OsCpuEnableInt$/;"	l
+OsCpuEnableInt	.\cpu\bk\tcl.stm32f103.keil.asm	/^OsCpuEnableInt$/;"	l
+OsCpuEnableInt	.\cpu\bk\tcl.stm32f401.keil.asm	/^OsCpuEnableInt$/;"	l
+OsCpuEnterCritical	.\arch\tcl.arm.cm3.keil.asm	/^OsCpuEnterCritical$/;"	l
+OsCpuEnterCritical	.\arch\tcl.arm.cm4.keil.asm	/^OsCpuEnterCritical$/;"	l
+OsCpuEnterCritical	.\cpu\bk\tcl.stm32f030.keil.asm	/^OsCpuEnterCritical$/;"	l
+OsCpuEnterCritical	.\cpu\bk\tcl.stm32f103.keil.asm	/^OsCpuEnterCritical$/;"	l
+OsCpuEnterCritical	.\cpu\bk\tcl.stm32f401.keil.asm	/^OsCpuEnterCritical$/;"	l
+OsCpuHardFaultEntry	.\arch\tcl.arm.cm3.c	/^void OsCpuHardFaultEntry(unsigned int * hardfault_args)$/;"	f	signature:(unsigned int * hardfault_args)
+OsCpuHardFaultEntry	.\arch\tcl.arm.cm4.c	/^void OsCpuHardFaultEntry(unsigned int * hardfault_args)$/;"	f	signature:(unsigned int * hardfault_args)
+OsCpuLeaveCritical	.\arch\tcl.arm.cm3.keil.asm	/^OsCpuLeaveCritical$/;"	l
+OsCpuLeaveCritical	.\arch\tcl.arm.cm4.keil.asm	/^OsCpuLeaveCritical$/;"	l
+OsCpuLeaveCritical	.\cpu\bk\tcl.stm32f030.keil.asm	/^OsCpuLeaveCritical$/;"	l
+OsCpuLeaveCritical	.\cpu\bk\tcl.stm32f103.keil.asm	/^OsCpuLeaveCritical$/;"	l
+OsCpuLeaveCritical	.\cpu\bk\tcl.stm32f401.keil.asm	/^OsCpuLeaveCritical$/;"	l
+OsCpuLoadRootThread	.\arch\tcl.arm.cm3.c	/^void OsCpuLoadRootThread()$/;"	f
+OsCpuLoadRootThread	.\arch\tcl.arm.cm4.c	/^void OsCpuLoadRootThread()$/;"	f
+OsCpuLoadRootThread	.\cpu\bk\tcl.stm32f030.keil.asm	/^OsCpuLoadRootThread$/;"	l
+OsCpuLoadRootThread	.\cpu\bk\tcl.stm32f103.c	/^void OsCpuLoadRootThread()$/;"	f
+OsCpuLoadRootThread	.\cpu\bk\tcl.stm32f401.c	/^void OsCpuLoadRootThread()$/;"	f
+OsCpuLoadRootThread	.\cpu\tcl.gd32.f150r8.c	/^void OsCpuLoadRootThread()$/;"	f
+OsCpuSetupEntry	.\arch\tcl.arm.cm3.c	/^void OsCpuSetupEntry(void)$/;"	f	signature:(void)
+OsCpuSetupEntry	.\arch\tcl.arm.cm4.c	/^void OsCpuSetupEntry(void)$/;"	f	signature:(void)
+OsCpuSetupEntry	.\cpu\bk\tcl.stm32f030.c	/^void OsCpuSetupEntry(void)$/;"	f	signature:(void)
+OsCpuSetupEntry	.\cpu\bk\tcl.stm32f103.c	/^void OsCpuSetupEntry(void)$/;"	f	signature:(void)
+OsCpuSetupEntry	.\cpu\bk\tcl.stm32f401.c	/^void OsCpuSetupEntry(void)$/;"	f	signature:(void)
+OsCpuSetupEntry	.\cpu\tcl.gd32.f150r8.c	/^void OsCpuSetupEntry(void)$/;"	f	signature:(void)
+OsCpuStartTickClock	.\arch\tcl.arm.cm3.c	/^void OsCpuStartTickClock(void)$/;"	f	signature:(void)
+OsCpuStartTickClock	.\arch\tcl.arm.cm4.c	/^void OsCpuStartTickClock(void)$/;"	f	signature:(void)
+OsCpuStartTickClock	.\cpu\bk\tcl.stm32f030.c	/^void OsCpuStartTickClock(void)$/;"	f	signature:(void)
+OsCpuStartTickClock	.\cpu\bk\tcl.stm32f103.c	/^void OsCpuStartTickClock(void)$/;"	f	signature:(void)
+OsCpuStartTickClock	.\cpu\bk\tcl.stm32f401.c	/^void OsCpuStartTickClock(void)$/;"	f	signature:(void)
+OsCpuStartTickClock	.\cpu\tcl.gd32.f150r8.c	/^void OsCpuStartTickClock(void)$/;"	f	signature:(void)
+OsDebugPanic	.\tcl.debug.c	/^void OsDebugPanic(const char* pNote, const char* pFile, const char* pFunc, int line)$/;"	f	signature:(const char* pNote, const char* pFile, const char* pFunc, int line)
+OsDebugWarning	.\tcl.debug.c	/^void OsDebugWarning(const char* pNote)$/;"	f	signature:(const char* pNote)
+OsIpcBlockThread	.\ipc\tcl.ipc.c	/^void OsIpcBlockThread(TIpcContext* pContext, void* pIpc, TIpcQueue* pQueue,$/;"	f	signature:(TIpcContext* pContext, void* pIpc, TIpcQueue* pQueue, TBase32 data, TBase32 len, TBitMask option, TTimeTick ticks, TState* pState, TError* pError, TBool* pHiRP)
+OsIpcCleanContext	.\ipc\tcl.ipc.c	/^void OsIpcCleanContext(TIpcContext* pContext)$/;"	f	signature:(TIpcContext* pContext)
+OsIpcUnblockAll	.\ipc\tcl.ipc.c	/^void OsIpcUnblockAll(TIpcQueue* pQueue, TState state, TError error, void** pData2, TBool* pHiRP)$/;"	f	signature:(TIpcQueue* pQueue, TState state, TError error, void** pData2, TBool* pHiRP)
+OsIpcUnblockThread	.\ipc\tcl.ipc.c	/^void OsIpcUnblockThread(TIpcContext* pContext, TState state, TError error, TBool* pHiRP)$/;"	f	signature:(TIpcContext* pContext, TState state, TError error, TBool* pHiRP)
+OsIrqEnterISR	.\tcl.irq.c	/^void OsIrqEnterISR(TBase32 irqn)$/;"	f	signature:(TBase32 irqn)
+OsIrqModuleInit	.\tcl.irq.c	/^void OsIrqModuleInit(void)$/;"	f	signature:(void)
+OsKernelAddObject	.\tcl.kernel.c	/^void OsKernelAddObject(TObject* pObject, TChar* pName, TObjectType type)$/;"	f	signature:(TObject* pObject, TChar* pName, TObjectType type)
+OsKernelEnterIntrState	.\tcl.kernel.c	/^void OsKernelEnterIntrState(void)$/;"	f	signature:(void)
+OsKernelLeaveIntrState	.\tcl.kernel.c	/^void OsKernelLeaveIntrState(void)$/;"	f	signature:(void)
+OsKernelRemoveObject	.\tcl.kernel.c	/^void OsKernelRemoveObject(TObject* pObject)$/;"	f	signature:(TObject* pObject)
+OsKernelTickISR	.\tcl.kernel.c	/^void OsKernelTickISR(void)$/;"	f	signature:(void)
+OsKernelVariable	.\tcl.kernel.c	/^TKernelVariable OsKernelVariable;$/;"	v
+OsObjListAddDiffNode	.\tcl.object.c	/^void OsObjListAddDiffNode(TLinkNode** pHandle2, TLinkNode* pNode)$/;"	f	signature:(TLinkNode** pHandle2, TLinkNode* pNode)
+OsObjListAddNode	.\tcl.object.c	/^void OsObjListAddNode(TLinkNode** pHandle2, TLinkNode* pNode, TLinkPos pos)$/;"	f	signature:(TLinkNode** pHandle2, TLinkNode* pNode, TLinkPos pos)
+OsObjListAddPriorityNode	.\tcl.object.c	/^void OsObjListAddPriorityNode(TLinkNode** pHandle2, TLinkNode* pNode)$/;"	f	signature:(TLinkNode** pHandle2, TLinkNode* pNode)
+OsObjListRemoveDiffNode	.\tcl.object.c	/^void OsObjListRemoveDiffNode(TLinkNode** pHandle2, TLinkNode* pNode)$/;"	f	signature:(TLinkNode** pHandle2, TLinkNode* pNode)
+OsObjListRemoveNode	.\tcl.object.c	/^void OsObjListRemoveNode(TLinkNode** pHandle2, TLinkNode* pNode)$/;"	f	signature:(TLinkNode** pHandle2, TLinkNode* pNode)
+OsObjQueueAddFifoNode	.\tcl.object.c	/^void OsObjQueueAddFifoNode(TLinkNode** pHandle2, TLinkNode* pNode, TLinkPos pos)$/;"	f	signature:(TLinkNode** pHandle2, TLinkNode* pNode, TLinkPos pos)
+OsObjQueueAddPriorityNode	.\tcl.object.c	/^void OsObjQueueAddPriorityNode(TLinkNode** pHandle2, TLinkNode* pNode)$/;"	f	signature:(TLinkNode** pHandle2, TLinkNode* pNode)
+OsObjQueueRemoveNode	.\tcl.object.c	/^void OsObjQueueRemoveNode(TLinkNode** pHandle2, TLinkNode* pNode)$/;"	f	signature:(TLinkNode** pHandle2, TLinkNode* pNode)
+OsThreadCreate	.\tcl.thread.c	/^void OsThreadCreate(TThread* pThread, TChar* pName, TBitMask status, TBitMask property,$/;"	f	signature:(TThread* pThread, TChar* pName, TBitMask status, TBitMask property, TThreadEntry pEntry, TArgument argument, void* pStack, TBase32 bytes, TBase32 priority, TTimeTick ticks)
+OsThreadEnterQueue	.\tcl.thread.c	/^void OsThreadEnterQueue(TThreadQueue* pQueue, TThread* pThread, TLinkPos pos)$/;"	f	signature:(TThreadQueue* pQueue, TThread* pThread, TLinkPos pos)
+OsThreadLeaveQueue	.\tcl.thread.c	/^void OsThreadLeaveQueue(TThreadQueue* pQueue, TThread* pThread)$/;"	f	signature:(TThreadQueue* pQueue, TThread* pThread)
+OsThreadModuleInit	.\tcl.thread.c	/^void OsThreadModuleInit(void)$/;"	f	signature:(void)
+OsThreadResume	.\tcl.thread.c	/^void OsThreadResume(TThread* pThread)$/;"	f	signature:(TThread* pThread)
+OsThreadSchedule	.\tcl.thread.c	/^void OsThreadSchedule(void)$/;"	f	signature:(void)
+OsThreadSetPriority	.\tcl.thread.c	/^TState OsThreadSetPriority(TThread* pThread, TBase32 priority, TBool flag, TBool* pHiRP,$/;"	f	signature:(TThread* pThread, TBase32 priority, TBool flag, TBool* pHiRP, TError* pError)
+OsThreadSuspend	.\tcl.thread.c	/^void OsThreadSuspend(void)$/;"	f	signature:(void)
+OsThreadTickUpdate	.\tcl.thread.c	/^void OsThreadTickUpdate(void)$/;"	f	signature:(void)
+OsThreadTimerTickUpdate	.\tcl.thread.c	/^void OsThreadTimerTickUpdate(void)$/;"	f	signature:(void)
+OsTimerModuleInit	.\tcl.timer.c	/^void OsTimerModuleInit(void)$/;"	f	signature:(void)
+OsTimerTickUpdate	.\tcl.timer.c	/^void OsTimerTickUpdate(void)$/;"	f	signature:(void)
+PAGES_AVAIL	.\tcl.memory.c	19;"	d	file:
+PARENT_NODE	.\tcl.memory.c	21;"	d	file:
+PENSV_ACTIVE_MASK	.\cpu\bk\tcl.stm32f030.c	28;"	d	file:
+PendSV_Handler	.\arch\tcl.arm.cm3.keil.asm	/^PendSV_Handler$/;"	l
+PendSV_Handler	.\arch\tcl.arm.cm4.keil.asm	/^PendSV_Handler$/;"	l
+PendSV_Handler	.\cpu\bk\tcl.stm32f030.keil.asm	/^PendSV_Handler$/;"	l
+PendSV_Handler	.\cpu\bk\tcl.stm32f103.keil.asm	/^PendSV_Handler$/;"	l
+PendSV_Handler	.\cpu\bk\tcl.stm32f401.keil.asm	/^PendSV_Handler$/;"	l
+RIGHT_NODE	.\tcl.memory.c	23;"	d	file:
+ReceiveFlags	.\ipc\tcl.flags.c	/^static TState ReceiveFlags(TFlags* pFlags, TBitMask* pPattern, TBitMask option, TError* pError)$/;"	f	file:	signature:(TFlags* pFlags, TBitMask* pPattern, TBitMask option, TError* pError)
+ReceiveMail	.\ipc\tcl.mailbox.c	/^static TState ReceiveMail(TMailbox* pMailbox, void** pMail2, TBool* pHiRP, TError* pError)$/;"	f	file:	signature:(TMailbox* pMailbox, void** pMail2, TBool* pHiRP, TError* pError)
+ReceiveMessage	.\ipc\tcl.message.c	/^static TState ReceiveMessage(TMsgQueue* pMsgQue, void** pMsg2, TBool* pHiRP, TError* pError)$/;"	f	file:	signature:(TMsgQueue* pMsgQue, void** pMsg2, TBool* pHiRP, TError* pError)
+ReleaseSemaphore	.\ipc\tcl.semaphore.c	/^static TState ReleaseSemaphore(TSemaphore* pSemaphore, TBool* pHiRP, TError* pError)$/;"	f	file:	signature:(TSemaphore* pSemaphore, TBool* pHiRP, TError* pError)
+RemoveLock	.\ipc\tcl.mutex.c	/^static TState RemoveLock(TThread* pThread, TMutex* pMutex, TBool* pHiRP, TError* pError)$/;"	f	file:	signature:(TThread* pThread, TMutex* pMutex, TBool* pHiRP, TError* pError)
+RootThread	.\tcl.thread.c	/^static TThread RootThread;$/;"	v	file:
+RootThreadEntry	.\tcl.thread.c	/^static void RootThreadEntry(TBase32 argument)$/;"	f	file:	signature:(TBase32 argument)
+RootThreadStack	.\tcl.thread.c	/^static TBase32 RootThreadStack[TCLC_ROOT_THREAD_STACK_BYTES >> 2];$/;"	v	file:
+STORE_CURRENT_FILE	.\arch\tcl.arm.cm3.keil.asm	/^STORE_CURRENT_FILE    $/;"	l
+STORE_CURRENT_FILE	.\arch\tcl.arm.cm4.keil.asm	/^STORE_CURRENT_FILE    $/;"	l
+STORE_CURRENT_FILE	.\cpu\bk\tcl.stm32f030.keil.asm	/^STORE_CURRENT_FILE   $/;"	l
+STORE_CURRENT_FILE	.\cpu\bk\tcl.stm32f103.keil.asm	/^STORE_CURRENT_FILE    $/;"	l
+STORE_CURRENT_FILE	.\cpu\bk\tcl.stm32f401.keil.asm	/^STORE_CURRENT_FILE    $/;"	l
+SWAP_THREAD	.\cpu\bk\tcl.stm32f030.keil.asm	/^SWAP_THREAD                ; 使得uThreadCurrent = uThreadNominee;$/;"	l
+SWAP_THREAD	.\cpu\bk\tcl.stm32f103.keil.asm	/^SWAP_THREAD                ; 使得uThreadCurrent = uThreadNominee;$/;"	l
+SWAP_THREAD	.\cpu\bk\tcl.stm32f401.keil.asm	/^SWAP_THREAD                ; 使得uThreadCurrent = uThreadNominee;$/;"	l
+SaveMessage	.\ipc\tcl.message.c	/^static void SaveMessage(TMsgQueue* pMsgQue, void** pMsg2, TBitMask option)$/;"	f	file:	signature:(TMsgQueue* pMsgQue, void** pMsg2, TBitMask option)
+SendFlags	.\ipc\tcl.flags.c	/^static TState SendFlags(TFlags* pFlags, TBitMask pattern, TBool* pHiRP, TError* pError)$/;"	f	file:	signature:(TFlags* pFlags, TBitMask pattern, TBool* pHiRP, TError* pError)
+SendMail	.\ipc\tcl.mailbox.c	/^static TState SendMail(TMailbox* pMailbox, void** pMail2, TBool* pHiRP, TError* pError)$/;"	f	file:	signature:(TMailbox* pMailbox, void** pMail2, TBool* pHiRP, TError* pError)
+SendMessage	.\ipc\tcl.message.c	/^static TState SendMessage(TMsgQueue* pMsgQue, void** pMsg2, TBitMask option, TBool* pHiRP,$/;"	f	file:	signature:(TMsgQueue* pMsgQue, void** pMsg2, TBitMask option, TBool* pHiRP, TError* pError)
+SuperviseThread	.\tcl.thread.c	/^static void SuperviseThread(TThread* pThread)$/;"	f	file:	signature:(TThread* pThread)
+SysTick_Handler	.\cpu\bk\tcl.stm32f030.c	/^void SysTick_Handler(void)$/;"	f	signature:(void)
+SysTick_Handler	.\cpu\bk\tcl.stm32f103.c	/^void SysTick_Handler(void)$/;"	f	signature:(void)
+SysTick_Handler	.\cpu\bk\tcl.stm32f401.c	/^void SysTick_Handler(void)$/;"	f	signature:(void)
+SysTick_Handler	.\cpu\tcl.gd32.f150r8.c	/^void SysTick_Handler(void)$/;"	f	signature:(void)
+SysTick_Handler	.\cpu\tcl.gd32.f190r8.c	/^void SysTick_Handler(void)$/;"	f	signature:(void)
+SysTick_Handler	.\cpu\tcl.gd32.f450ve.c	/^void SysTick_Handler(void)$/;"	f	signature:(void)
+SysTick_Handler	.\cpu\tcl.stm32.f103rb.c	/^void SysTick_Handler(void)$/;"	f	signature:(void)
+TIM2_IRQHandler	.\cpu\bk\tcl.stm32f030.c	/^void TIM2_IRQHandler(void)$/;"	f	signature:(void)
+TIM2_IRQHandler	.\cpu\bk\tcl.stm32f103.c	/^void TIM2_IRQHandler(void)$/;"	f	signature:(void)
+TIM2_IRQHandler	.\cpu\bk\tcl.stm32f401.c	/^void TIM2_IRQHandler(void)$/;"	f	signature:(void)
+TIM2_IRQHandler	.\cpu\tcl.gd32.f150r8.c	/^void TIM2_IRQHandler(void)$/;"	f	signature:(void)
+TIM2_IRQHandler	.\cpu\tcl.gd32.f190r8.c	/^void TIM2_IRQHandler(void)$/;"	f	signature:(void)
+TIM2_IRQHandler	.\cpu\tcl.gd32.f450ve.c	/^void TIM2_IRQHandler(void)$/;"	f	signature:(void)
+TIM2_IRQHandler	.\cpu\tcl.stm32.f103rb.c	/^void TIM2_IRQHandler(void)$/;"	f	signature:(void)
+TIrqList	.\tcl.irq.c	/^} TIrqList;$/;"	t	typeref:struct:IrqListDef	file:
+TclActivateThread	.\tcl.thread.c	/^TState TclActivateThread(TThread* pThread, TError* pError)$/;"	f	signature:(TThread* pThread, TError* pError)
+TclBroadcastMail	.\ipc\tcl.mailbox.c	/^TState TclBroadcastMail(TMailbox* pMailbox, TMail* pMail2, TError* pError)$/;"	f	signature:(TMailbox* pMailbox, TMail* pMail2, TError* pError)
+TclBroadcastMessage	.\ipc\tcl.message.c	/^TState TclBroadcastMessage(TMsgQueue* pMsgQue, TMessage* pMsg2, TError* pError)$/;"	f	signature:(TMsgQueue* pMsgQue, TMessage* pMsg2, TError* pError)
+TclCancelIRQ	.\tcl.irq.c	/^TState TclCancelIRQ(TIrq* pIRQ, TError* pError)$/;"	f	signature:(TIrq* pIRQ, TError* pError)
+TclCleanIrqVector	.\tcl.irq.c	/^TState TclCleanIrqVector(TBase32 irqn, TError* pError)$/;"	f	signature:(TBase32 irqn, TError* pError)
+TclConfigTimer	.\tcl.timer.c	/^TState TclConfigTimer(TTimer* pTimer, TTimeTick ticks, TBase32 priority, TError* pError)$/;"	f	signature:(TTimer* pTimer, TTimeTick ticks, TBase32 priority, TError* pError)
+TclCreateFlags	.\ipc\tcl.flags.c	/^TState TclCreateFlags(TFlags* pFlags, TChar* pName, TBitMask property, TError* pError)$/;"	f	signature:(TFlags* pFlags, TChar* pName, TBitMask property, TError* pError)
+TclCreateMailbox	.\ipc\tcl.mailbox.c	/^TState TclCreateMailbox(TMailbox* pMailbox, TChar* pName, TBitMask property, TError* pError)$/;"	f	signature:(TMailbox* pMailbox, TChar* pName, TBitMask property, TError* pError)
+TclCreateMemoryBuddy	.\tcl.memory.c	/^TState TclCreateMemoryBuddy(TMemBuddy* pBuddy, TChar* pAddr, TBase32 pages, TBase32 pagesize, TError* pError)$/;"	f	signature:(TMemBuddy* pBuddy, TChar* pAddr, TBase32 pages, TBase32 pagesize, TError* pError)
+TclCreateMsgQueue	.\ipc\tcl.message.c	/^TState TclCreateMsgQueue(TMsgQueue* pMsgQue, TChar* pName, void** pPool2, TBase32 capacity,$/;"	f	signature:(TMsgQueue* pMsgQue, TChar* pName, void** pPool2, TBase32 capacity, TBitMask property, TError* pError)
+TclCreateMutex	.\ipc\tcl.mutex.c	/^TState TclCreateMutex(TMutex* pMutex, TChar* pName, TBitMask property, TBase32 priority,$/;"	f	signature:(TMutex* pMutex, TChar* pName, TBitMask property, TBase32 priority, TError* pError)
+TclCreatePool	.\tcl.pool.c	/^TState TclCreatePool(TObjPool* pPool, void* pAddr, TBase32 number, TBase32 size, TError* pError)$/;"	f	signature:(TObjPool* pPool, void* pAddr, TBase32 number, TBase32 size, TError* pError)
+TclCreateSemaphore	.\ipc\tcl.semaphore.c	/^TState TclCreateSemaphore(TSemaphore* pSemaphore, TChar* pName, TBase32 value, TBase32 mvalue,$/;"	f	signature:(TSemaphore* pSemaphore, TChar* pName, TBase32 value, TBase32 mvalue, TBitMask property, TError* pError)
+TclCreateThread	.\tcl.thread.c	/^TState TclCreateThread(TThread* pThread, TChar* pName, TThreadEntry pEntry, TArgument argument,$/;"	f	signature:(TThread* pThread, TChar* pName, TThreadEntry pEntry, TArgument argument, void* pStack, TBase32 bytes, TBase32 priority, TTimeTick ticks, TError* pError)
+TclCreateTimer	.\tcl.timer.c	/^TState TclCreateTimer(TTimer* pTimer, TChar* pName, TBitMask property, TTimeTick ticks,$/;"	f	signature:(TTimer* pTimer, TChar* pName, TBitMask property, TTimeTick ticks, TTimerRoutine pRoutine, TArgument data, TBase32 priority, TError* pError)
+TclDeactivateThread	.\tcl.thread.c	/^TState TclDeactivateThread(TThread* pThread, TError* pError)$/;"	f	signature:(TThread* pThread, TError* pError)
+TclDelayThread	.\tcl.thread.c	/^TState TclDelayThread(TTimeTick ticks, TError* pError)$/;"	f	signature:(TTimeTick ticks, TError* pError)
+TclDeleteFlags	.\ipc\tcl.flags.c	/^TState TclDeleteFlags(TFlags* pFlags, TError* pError)$/;"	f	signature:(TFlags* pFlags, TError* pError)
+TclDeleteMailbox	.\ipc\tcl.mailbox.c	/^TState TclDeleteMailbox(TMailbox* pMailbox, TError* pError)$/;"	f	signature:(TMailbox* pMailbox, TError* pError)
+TclDeleteMemoryBuddy	.\tcl.memory.c	/^TState TclDeleteMemoryBuddy(TMemBuddy* pBuddy, TError* pError)$/;"	f	signature:(TMemBuddy* pBuddy, TError* pError)
+TclDeleteMsgQueue	.\ipc\tcl.message.c	/^TState TclDeleteMsgQueue(TMsgQueue* pMsgQue, TError* pError)$/;"	f	signature:(TMsgQueue* pMsgQue, TError* pError)
+TclDeleteMutex	.\ipc\tcl.mutex.c	/^TState TclDeleteMutex(TMutex* pMutex, TError* pError)$/;"	f	signature:(TMutex* pMutex, TError* pError)
+TclDeletePool	.\tcl.pool.c	/^TState TclDeletePool(TObjPool* pPool, TError* pError)$/;"	f	signature:(TObjPool* pPool, TError* pError)
+TclDeleteSemaphore	.\ipc\tcl.semaphore.c	/^TState TclDeleteSemaphore(TSemaphore* pSemaphore, TError* pError)$/;"	f	signature:(TSemaphore* pSemaphore, TError* pError)
+TclDeleteThread	.\tcl.thread.c	/^TState TclDeleteThread(TThread* pThread, TError* pError)$/;"	f	signature:(TThread* pThread, TError* pError)
+TclDeleteTimer	.\tcl.timer.c	/^TState TclDeleteTimer(TTimer* pTimer, TError* pError)$/;"	f	signature:(TTimer* pTimer, TError* pError)
+TclFlushFlags	.\ipc\tcl.flags.c	/^TState TclFlushFlags(TFlags* pFlags, TError* pError)$/;"	f	signature:(TFlags* pFlags, TError* pError)
+TclFlushMailbox	.\ipc\tcl.mailbox.c	/^TState TclFlushMailbox(TMailbox* pMailbox, TError* pError)$/;"	f	signature:(TMailbox* pMailbox, TError* pError)
+TclFlushMsgQueue	.\ipc\tcl.message.c	/^TState TclFlushMsgQueue(TMsgQueue* pMsgQue, TError* pError)$/;"	f	signature:(TMsgQueue* pMsgQue, TError* pError)
+TclFlushMutex	.\ipc\tcl.mutex.c	/^TState TclFlushMutex(TMutex* pMutex, TError* pError)$/;"	f	signature:(TMutex* pMutex, TError* pError)
+TclFlushSemaphore	.\ipc\tcl.semaphore.c	/^TState TclFlushSemaphore(TSemaphore* pSemaphore, TError* pError)$/;"	f	signature:(TSemaphore* pSemaphore, TError* pError)
+TclFreeBuddyMemory	.\tcl.memory.c	/^TState TclFreeBuddyMemory(TMemBuddy* pBuddy, void* pAddr, TError* pError)$/;"	f	signature:(TMemBuddy* pBuddy, void* pAddr, TError* pError)
+TclFreeMutex	.\ipc\tcl.mutex.c	/^TState TclFreeMutex(TMutex* pMutex, TError* pError)$/;"	f	signature:(TMutex* pMutex, TError* pError)
+TclFreeObject	.\tcl.pool.c	/^TState TclFreeObject(TObjPool* pPool, void* pAddr, TError* pError)$/;"	f	signature:(TObjPool* pPool, void* pAddr, TError* pError)
+TclGetCurrentThread	.\tcl.kernel.c	/^void TclGetCurrentThread(TThread** pThread2)$/;"	f	signature:(TThread** pThread2)
+TclGetTimeStamp	.\tcl.kernel.c	/^void TclGetTimeStamp(TBase32* pCycles, TTimeTick* pJiffies)$/;"	f	signature:(TBase32* pCycles, TTimeTick* pJiffies)
+TclIsrReleaseSemaphore	.\ipc\tcl.semaphore.c	/^TState TclIsrReleaseSemaphore(TSemaphore* pSemaphore, TError* pError)$/;"	f	signature:(TSemaphore* pSemaphore, TError* pError)
+TclIsrSendMail	.\ipc\tcl.mailbox.c	/^TState TclIsrSendMail(TMailbox* pMailbox, TMail* pMail2, TError* pError)$/;"	f	signature:(TMailbox* pMailbox, TMail* pMail2, TError* pError)
+TclIsrSendMessage	.\ipc\tcl.message.c	/^TState TclIsrSendMessage(TMsgQueue* pMsgQue, TMessage* pMsg2, TBitMask option, TError* pError)$/;"	f	signature:(TMsgQueue* pMsgQue, TMessage* pMsg2, TBitMask option, TError* pError)
+TclLockMutex	.\ipc\tcl.mutex.c	/^TState TclLockMutex(TMutex* pMutex, TBitMask option, TTimeTick timeo, TError* pError)$/;"	f	signature:(TMutex* pMutex, TBitMask option, TTimeTick timeo, TError* pError)
+TclLockScheduler	.\tcl.kernel.c	/^TState TclLockScheduler(void)$/;"	f	signature:(void)
+TclMallocBuddyMemory	.\tcl.memory.c	/^TState TclMallocBuddyMemory(TMemBuddy* pBuddy, TBase32 length, void** pAddr2, TError* pError)$/;"	f	signature:(TMemBuddy* pBuddy, TBase32 length, void** pAddr2, TError* pError)
+TclMallocObject	.\tcl.pool.c	/^TState TclMallocObject(TObjPool* pPool, void** pAddr2, TError* pError)$/;"	f	signature:(TObjPool* pPool, void** pAddr2, TError* pError)
+TclObtainSemaphore	.\ipc\tcl.semaphore.c	/^TState TclObtainSemaphore(TSemaphore* pSemaphore, TBitMask option, TTimeTick timeo, TError* pError)$/;"	f	signature:(TSemaphore* pSemaphore, TBitMask option, TTimeTick timeo, TError* pError)
+TclPostIRQ	.\tcl.irq.c	/^TState TclPostIRQ(TIrq* pIRQ, TIrqEntry pEntry, TArgument data, TBase32 priority,$/;"	f	signature:(TIrq* pIRQ, TIrqEntry pEntry, TArgument data, TBase32 priority, TError* pError)
+TclReceiveFlags	.\ipc\tcl.flags.c	/^TState TclReceiveFlags(TFlags* pFlags, TBitMask* pPattern, TBitMask option, TTimeTick timeo,$/;"	f	signature:(TFlags* pFlags, TBitMask* pPattern, TBitMask option, TTimeTick timeo, TError* pError)
+TclReceiveMail	.\ipc\tcl.mailbox.c	/^TState TclReceiveMail(TMailbox* pMailbox, TMail* pMail2, TBitMask option, TTimeTick timeo,$/;"	f	signature:(TMailbox* pMailbox, TMail* pMail2, TBitMask option, TTimeTick timeo, TError* pError)
+TclReceiveMessage	.\ipc\tcl.message.c	/^extern TState TclReceiveMessage(TMsgQueue* pMsgQue, TMessage* pMsg2, TBitMask option,$/;"	f	signature:(TMsgQueue* pMsgQue, TMessage* pMsg2, TBitMask option, TTimeTick timeo, TError* pError)
+TclReleaseSemaphore	.\ipc\tcl.semaphore.c	/^TState TclReleaseSemaphore(TSemaphore* pSemaphore, TBitMask option, TTimeTick timeo, TError* pError)$/;"	f	signature:(TSemaphore* pSemaphore, TBitMask option, TTimeTick timeo, TError* pError)
+TclResetFlags	.\ipc\tcl.flags.c	/^TState TclResetFlags(TFlags* pFlags, TError* pError)$/;"	f	signature:(TFlags* pFlags, TError* pError)
+TclResetMailbox	.\ipc\tcl.mailbox.c	/^TState TclResetMailbox(TMailbox* pMailbox, TError* pError)$/;"	f	signature:(TMailbox* pMailbox, TError* pError)
+TclResetMsgQueue	.\ipc\tcl.message.c	/^TState TclResetMsgQueue(TMsgQueue* pMsgQue, TError* pError)$/;"	f	signature:(TMsgQueue* pMsgQue, TError* pError)
+TclResetMutex	.\ipc\tcl.mutex.c	/^TState TclResetMutex(TMutex* pMutex, TError* pError)$/;"	f	signature:(TMutex* pMutex, TError* pError)
+TclResetSemaphore	.\ipc\tcl.semaphore.c	/^TState TclResetSemaphore(TSemaphore* pSemaphore, TError* pError)$/;"	f	signature:(TSemaphore* pSemaphore, TError* pError)
+TclResumeThread	.\tcl.thread.c	/^TState TclResumeThread(TThread* pThread, TError* pError)$/;"	f	signature:(TThread* pThread, TError* pError)
+TclSendFlags	.\ipc\tcl.flags.c	/^TState TclSendFlags(TFlags* pFlags, TBitMask pattern, TError* pError)$/;"	f	signature:(TFlags* pFlags, TBitMask pattern, TError* pError)
+TclSendMail	.\ipc\tcl.mailbox.c	/^TState TclSendMail(TMailbox* pMailbox, TMail* pMail2, TBitMask option, TTimeTick timeo,$/;"	f	signature:(TMailbox* pMailbox, TMail* pMail2, TBitMask option, TTimeTick timeo, TError* pError)
+TclSendMessage	.\ipc\tcl.message.c	/^TState TclSendMessage(TMsgQueue* pMsgQue, TMessage* pMsg2, TBitMask option, TTimeTick timeo,$/;"	f	signature:(TMsgQueue* pMsgQue, TMessage* pMsg2, TBitMask option, TTimeTick timeo, TError* pError)
+TclSetIrqVector	.\tcl.irq.c	/^TState TclSetIrqVector(TBase32 irqn, TISR pISR, TArgument data, TError* pError)$/;"	f	signature:(TBase32 irqn, TISR pISR, TArgument data, TError* pError)
+TclSetSysFaultEntry	.\tcl.kernel.c	/^void TclSetSysFaultEntry(TSysFaultEntry pEntry)$/;"	f	signature:(TSysFaultEntry pEntry)
+TclSetSysIdleEntry	.\tcl.kernel.c	/^void TclSetSysIdleEntry(TSysIdleEntry pEntry)$/;"	f	signature:(TSysIdleEntry pEntry)
+TclSetSysWarningEntry	.\tcl.kernel.c	/^void TclSetSysWarningEntry(TSysWarningEntry pEntry)$/;"	f	signature:(TSysWarningEntry pEntry)
+TclSetThreadPriority	.\tcl.thread.c	/^TState TclSetThreadPriority(TThread* pThread, TBase32 priority, TError* pError)$/;"	f	signature:(TThread* pThread, TBase32 priority, TError* pError)
+TclSetThreadSlice	.\tcl.thread.c	/^TState TclSetThreadSlice(TThread* pThread, TTimeTick ticks, TError* pError)$/;"	f	signature:(TThread* pThread, TTimeTick ticks, TError* pError)
+TclStartKernel	.\tcl.kernel.c	/^void TclStartKernel(TUserEntry pUserEntry,$/;"	f	signature:(TUserEntry pUserEntry, TCpuSetupEntry pCpuEntry, TBoardSetupEntry pBoardEntry, TTraceEntry pTraceEntry)
+TclStartTimer	.\tcl.timer.c	/^TState TclStartTimer(TTimer* pTimer,TTimeTick lagticks, TError* pError)$/;"	f	signature:(TTimer* pTimer,TTimeTick lagticks, TError* pError)
+TclStopTimer	.\tcl.timer.c	/^TState TclStopTimer(TTimer* pTimer, TError* pError)$/;"	f	signature:(TTimer* pTimer, TError* pError)
+TclSuspendThread	.\tcl.thread.c	/^TState TclSuspendThread(TThread* pThread, TError* pError)$/;"	f	signature:(TThread* pThread, TError* pError)
+TclTrace	.\tcl.kernel.c	/^void TclTrace(const char* pNote)$/;"	f	signature:(const char* pNote)
+TclUnblockThread	.\tcl.thread.c	/^TState TclUnblockThread(TThread* pThread, TError* pError)$/;"	f	signature:(TThread* pThread, TError* pError)
+TclUndelayThread	.\tcl.thread.c	/^TState TclUndelayThread(TThread* pThread, TError* pError)$/;"	f	signature:(TThread* pThread, TError* pError)
+TclUnlockScheduler	.\tcl.kernel.c	/^TState TclUnlockScheduler(void)$/;"	f	signature:(void)
+TclYieldThread	.\tcl.thread.c	/^TState TclYieldThread(TError* pError)$/;"	f	signature:(TError* pError)
+ThreadAuxiliaryQueue	.\tcl.thread.c	/^static TThreadQueue ThreadAuxiliaryQueue;$/;"	v	file:
+ThreadReadyQueue	.\tcl.thread.c	/^static TThreadQueue ThreadReadyQueue;$/;"	v	file:
+TimerActiveListA	.\tcl.timer.c	/^static TTimerList TimerActiveListA;$/;"	v	file:
+TimerActiveListB	.\tcl.timer.c	/^static TTimerList TimerActiveListB;$/;"	v	file:
+TimerDaemonEntry	.\tcl.timer.c	/^static void TimerDaemonEntry(TArgument argument)$/;"	f	file:	signature:(TArgument argument)
+TimerDaemonStack	.\tcl.timer.c	/^static TBase32 TimerDaemonStack[TCLC_TIMER_DAEMON_STACK_BYTES >> 2];$/;"	v	file:
+TimerDaemonThread	.\tcl.timer.c	/^static TThread TimerDaemonThread;$/;"	v	file:
+TimerDormantList	.\tcl.timer.c	/^static TLinkNode* TimerDormantList;$/;"	v	file:
+TimerExpiredList	.\tcl.timer.c	/^static TLinkNode* TimerExpiredList;$/;"	v	file:
+USART1_IRQHandler	.\cpu\bk\tcl.stm32f030.c	/^void USART1_IRQHandler(void)$/;"	f	signature:(void)
+USART1_IRQHandler	.\cpu\bk\tcl.stm32f103.c	/^void USART1_IRQHandler(void)	$/;"	f	signature:(void)
+USART1_IRQHandler	.\cpu\bk\tcl.stm32f401.c	/^void USART1_IRQHandler(void)	$/;"	f	signature:(void)
+USART1_IRQHandler	.\cpu\tcl.stm32.f103rb.c	/^void USART1_IRQHandler(void)	$/;"	f	signature:(void)
+USART2_IRQHandler	.\cpu\tcl.gd32.f150r8.c	/^void USART2_IRQHandler(void)$/;"	f	signature:(void)
+USART2_IRQHandler	.\cpu\tcl.gd32.f190r8.c	/^void USART2_IRQHandler(void)$/;"	f	signature:(void)
+USART2_IRQHandler	.\cpu\tcl.gd32.f450ve.c	/^void USART2_IRQHandler(void)$/;"	f	signature:(void)
+clp2	.\tcl.memory.c	/^static TBase32 clp2(TBase32 x)$/;"	f	file:	signature:(TBase32 x)
+flp2	.\tcl.memory.c	/^static TBase32 flp2(TBase32 x)$/;"	f	file:	signature:(TBase32 x)
+log2	.\tcl.memory.c	/^static TBase32 log2(TBase32 x)$/;"	f	file:	signature:(TBase32 x)
+power2	.\tcl.memory.c	/^static TBase32 power2(TBase32 x)$/;"	f	file:	signature:(TBase32 x)

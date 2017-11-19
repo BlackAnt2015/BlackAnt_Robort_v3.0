@@ -18,7 +18,7 @@ static TBase32 ThreadLedStack[THREAD_LED_STACK_BYTES/4];
 /* 用户邮件类型定义 */
 typedef struct
 {
-    TIndex Index;
+    TBase32 Index;
     TByte Value;
 } TLedMail;
 
@@ -61,19 +61,19 @@ static TBitMask EvbKeyISR(TArgument data)
     {
         if (turn % 2)
         {
-            /* Key ISR以非阻塞方式发送紧急邮件 */
+            /* Key ISR以非阻塞方式发送邮件 */
             LedMail.Index = LED1;
             pMail->Value =  LED_ON;
-            state = TclIsrSendMail(&LedMailbox, (TMail*)(&pMail), TCLO_IPC_UARGENT, &error);
+            state = TclIsrSendMail(&LedMailbox, (TMail*)(&pMail), &error);
             TCLM_ASSERT((state == eSuccess), "");
             TCLM_ASSERT((error == TCLE_IPC_NONE), "");
         }
         else
         {
-            /* Key ISR以非阻塞方式发送普通邮件 */
+            /* Key ISR以非阻塞方式发送邮件 */
             LedMail.Index = LED1;
             pMail->Value = LED_OFF;
-            state = TclIsrSendMail(&LedMailbox, (TMail*)(&pMail), (TOption)0, &error);
+            state = TclIsrSendMail(&LedMailbox, (TMail*)(&pMail), &error);
             TCLM_ASSERT((state == eSuccess), "");
             TCLM_ASSERT((error == TCLE_IPC_NONE), "");
         }

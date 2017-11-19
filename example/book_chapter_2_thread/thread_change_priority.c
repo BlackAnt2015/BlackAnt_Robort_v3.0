@@ -1,6 +1,4 @@
 /* 线程优先级修改API演示 */
-
-#include "trochili.h"
 #include "example.h"
 
 #if (EVB_EXAMPLE == CH2_THREAD_EXAMPLE6)

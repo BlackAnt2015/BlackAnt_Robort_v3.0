@@ -20,7 +20,7 @@ static TTimer Led3Timer;
 /* 用户定时器1的回调函数，间隔1秒，点亮或熄灭Led1 */
 static void BlinkLed1(TArgument data, TBase32 cycles, TTimeTick ticks)
 {
-    static TIndex index = 0;
+    static TBase32 index = 0;
     if (index % 2)
     {
         EvbLedControl(LED1, LED_OFF);
@@ -35,7 +35,7 @@ static void BlinkLed1(TArgument data, TBase32 cycles, TTimeTick ticks)
 /* 用户定时器2的回调函数，间隔1秒，点亮或熄灭Led2 */
 static void BlinkLed2(TArgument data, TBase32 cycles, TTimeTick ticks)
 {
-    static TIndex index = 0;
+    static TBase32 index = 0;
     if (index % 2)
     {
         EvbLedControl(LED2, LED_OFF);
@@ -50,7 +50,7 @@ static void BlinkLed2(TArgument data, TBase32 cycles, TTimeTick ticks)
 /* 用户定时器3的回调函数，间隔1秒，点亮或熄灭Led3 */
 static void BlinkLed3(TArgument data, TBase32 cycles, TTimeTick ticks)
 {
-    static TIndex index = 0;
+    static TBase32 index = 0;
     if (index % 2)
     {
         EvbLedControl(LED3, LED_OFF);
@@ -75,7 +75,7 @@ static void ThreadLedEntry(TArgument data)
                            TCLM_MLS2TICKS(1000),
                            &BlinkLed1,
                            (TArgument)0,
-                           (TPriority)5,
+                           (TBase32)5,
                            &error);
     TCLM_ASSERT((state == eSuccess), "");
     TCLM_ASSERT((error == TCLE_TIMER_NONE), "");
@@ -86,7 +86,7 @@ static void ThreadLedEntry(TArgument data)
                            TCLP_TIMER_PERIODIC,
                            TCLM_MLS2TICKS(1000),
                            &BlinkLed2,
-                           (TPriority)5,
+                           (TBase32)5,
                            (TArgument)0,
                            &error);
     TCLM_ASSERT((state == eSuccess), "");
@@ -99,7 +99,7 @@ static void ThreadLedEntry(TArgument data)
                            TCLM_MLS2TICKS(1000),
                            &BlinkLed3,
                            (TArgument)0,
-                           (TPriority)5,
+                           (TBase32)5,
                            &error);
     TCLM_ASSERT((state == eSuccess), "");
     TCLM_ASSERT((error == TCLE_TIMER_NONE), "");

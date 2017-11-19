@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+AppSetupEntry	.\rtos_example.c	/^static void AppSetupEntry(void)$/;"	f	file:	signature:(void)
+EvbSetupEntry	.\rtos_example.c	/^extern void EvbSetupEntry(void);$/;"	p	file:	signature:(void)
+EvbTraceEntry	.\rtos_example.c	/^extern void EvbTraceEntry(const char* str);$/;"	p	file:	signature:(const char* str)
+THREAD_PRIORITY	.\rtos_example.c	6;"	d	file:
+THREAD_SLICE	.\rtos_example.c	7;"	d	file:
+THREAD_STACK_BYTES	.\rtos_example.c	5;"	d	file:
+ThreadLed	.\rtos_example.c	/^static TThread ThreadLed;$/;"	v	file:
+ThreadLedEntry	.\rtos_example.c	/^static void ThreadLedEntry(TArgument data)$/;"	f	file:	signature:(TArgument data)
+ThreadLedStack	.\rtos_example.c	/^static TBase32 ThreadLedStack[THREAD_STACK_BYTES\/4];$/;"	v	file:
+delay	.\rtos_example.c	/^static void delay(TBase32 count)$/;"	f	file:	signature:(TBase32 count)
+main	.\rtos_example.c	/^int main(void)$/;"	f	signature:(void)
